@@ -94,7 +94,7 @@ def loadSinLimpiarTokens(length):
 def saveEmbeddings(textEmbeddings, dimension, type='no-bert'):
     print('Guardando embeddings...')
     length = len(textEmbeddings)
-    if type == 'bert': ruta = Path(f'../out/embeddings/bert/embeddings{length}dim{dimension}.npy')
+    if type == 'bert': ruta = Path(f'../out/embeddings/embeddings{length}dim{dimension}.npy')
     else: ruta = Path(f'../out/embeddings/embeddings{length}dim{dimension}.npy')
     if not ruta.exists(): # Only if file not exists
         np.save(ruta, textEmbeddings)
@@ -102,14 +102,9 @@ def saveEmbeddings(textEmbeddings, dimension, type='no-bert'):
 
 def loadEmbeddings(length, dimension=768, type='no-bert'):
     print('Cargando embeddings...')
-    if type == 'bert':
-        path = Path(f'../out/embeddings/bert/embeddings{length}dim{768}.npy')
-        if path.exists(): loadedData = np.load(path)
-        else: return False
-    else: 
-        path = Path(f'../out/embeddings/embeddings{length}dim{dimension}.npy')
-        if path.exists(): loadedData = np.load(path)
-        else: return False
+    path = Path(f'../out/embeddings/bert/embeddings{length}dim{768}.npy')
+    if path.exists(): loadedData = np.load(path)
+    else: return False
     print('Embeddings cargados')
     return loadedData
 

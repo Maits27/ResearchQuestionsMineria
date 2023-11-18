@@ -1,7 +1,6 @@
 from loadSaveData import saveEmbeddings, loadEmbeddings
-from sklearn.feature_extraction.text import TfidfVectorizer
 from gensim.models.doc2vec import TaggedDocument
-from gensim.models import Doc2Vec
+# from gensim.models import Doc2Vec
 from gensim.test.utils import get_tmpfile
 from transformers import AutoTokenizer, RobertaModel # library by HuggingFace
 from tqdm import tqdm
@@ -9,25 +8,25 @@ import torch # PyTorch
 import numpy as np
 
 
-def doc2vec(textosToken, dimensiones):
-    """
-    Genera vectorización de los textos usando Doc2vec
-    Devuelve las distancias vectorizadas
-    """
-
-    documents = [TaggedDocument(doc, [i]) for i, doc in enumerate(textosToken)]
-    model = Doc2Vec(documents, vector_size=dimensiones, window=2, dm=1, epochs=100, workers=4)
-
-    model.build_vocab(documents)
-    model.train(documents, total_examples=model.corpus_count, epochs=model.epochs)
-
-    model.save(get_tmpfile("my_doc2vec_model"))
-
-    documentVectors = [model.infer_vector(doc) for doc in textosToken]
-
-    saveEmbeddings(documentVectors, dimensiones)
-
-    return documentVectors
+# def doc2vec(textosToken, dimensiones):
+#     """
+#     Genera vectorización de los textos usando Doc2vec
+#     Devuelve las distancias vectorizadas
+#     """
+#
+#     documents = [TaggedDocument(doc, [i]) for i, doc in enumerate(textosToken)]
+#     model = Doc2Vec(documents, vector_size=dimensiones, window=2, dm=1, epochs=100, workers=4)
+#
+#     model.build_vocab(documents)
+#     model.train(documents, total_examples=model.corpus_count, epochs=model.epochs)
+#
+#     model.save(get_tmpfile("my_doc2vec_model"))
+#
+#     documentVectors = [model.infer_vector(doc) for doc in textosToken]
+#
+#     saveEmbeddings(documentVectors, dimensiones)
+#
+#     return documentVectors
 
 
 def bertTransformer(rawData):

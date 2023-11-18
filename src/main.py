@@ -2,6 +2,7 @@ from loadSaveData import loadRAW, loadRAWwithClass
 from tokenization import tokenize, tokenizarSinLimpiar
 import vectorization
 import sys
+import sentimentAnalysis
 
 
 def preProcess(nInstances, vectorsDimension, vectorizationMode):
@@ -30,7 +31,7 @@ def evaluate(rawData, rawDataWithClass, clusters, numClusters):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        nInstances = 1000
+        nInstances = 10000
         vectorsDimension = 768
         vectorizationMode = vectorization.bertTransformer
     else:
@@ -40,9 +41,10 @@ if __name__ == '__main__':
             vectorizationMode = vectorization.doc2vec
         elif sys.argv[3] == 'bert':
             vectorizationMode = vectorization.bertTransformer
-    epsilon = float(sys.argv[5])
-    minPts = int(sys.argv[6])
+    # epsilon = float(sys.argv[5])
+    # minPts = int(sys.argv[6])
 
     rawData, rawDataWithClass, textEmbeddings = preProcess(nInstances, vectorsDimension, vectorizationMode)
-    clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
-    evaluate(rawData, rawDataWithClass, clusters, numClusters)
+    sentimientos = sentimentAnalysis.getSentiment(rawData)
+    #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
+    #evaluate(rawData, rawDataWithClass, clusters, numClusters)
