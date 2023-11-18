@@ -6,7 +6,7 @@ import sentimentAnalysis
 
 
 def preProcess(nInstances, vectorsDimension, vectorizationMode):
-    path = f'../Datasets/Suicide_Detection{nInstances}.csv' # Previosuly reduced with reduceDataset.py
+    path = f'Datasets\Suicide_Detection{nInstances}.csv' # Previosuly reduced with reduceDataset.py
     rawData = loadRAW(path)
     rawDataWithClass = loadRAWwithClass(path)
     if vectorizationMode != vectorization.bertTransformer:
@@ -43,8 +43,9 @@ if __name__ == '__main__':
             vectorizationMode = vectorization.bertTransformer
     # epsilon = float(sys.argv[5])
     # minPts = int(sys.argv[6])
-
-    rawData, rawDataWithClass, textEmbeddings = preProcess(nInstances, vectorsDimension, vectorizationMode)
-    sentimientos = sentimentAnalysis.getSentiment(rawData)
+    path = f'Datasets\Suicide_Detection{nInstances}.csv'
+    #rawData, rawDataWithClass, textEmbeddings = preProcess(nInstances, vectorsDimension, vectorizationMode)
+    rawData = loadRAW(path)
+    sentimientos = sentimentAnalysis.getSentimentAndClass(rawData)
     #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
     #evaluate(rawData, rawDataWithClass, clusters, numClusters)
