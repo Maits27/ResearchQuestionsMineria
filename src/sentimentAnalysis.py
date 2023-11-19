@@ -34,23 +34,25 @@ def getArgmaxSentimentAndClass(classData):
 def getArgmaxSentiment():
     try:
         # Lee el array de JSONs desde el archivo con la codificación UTF-8
-        with open('emocionesEnumeradas.json', 'r', encoding='utf-8') as json_file:
+        with open('out\emociones\emocionesEnumeradas.json', 'r', encoding='utf-8') as json_file:
             emociones_array = json.load(json_file)
         emocionesDominantes = []
+        res = []
         for i, text in enumerate(emociones_array):
             nuevaEmocionDom = {}
             nuevaEmocionDom['instancia'] = text['instancia']
             nuevaEmocionDom['emocion'] = max(text['emociones'], key=text['emociones'].get)
+            res.append(nuevaEmocionDom['emocion'])
             emocionesDominantes.append(nuevaEmocionDom)
 
         with open('emocionesDominantes.json', 'w', encoding='utf-8') as json_file:
             json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
 
-        return 0
+        return res
 
     except FileNotFoundError:
         print(f"El archivo  no fue encontrado.")
-        return -1
+        return []
 
 
 def getSentiment(rawData):

@@ -1,5 +1,6 @@
 from loadSaveData import loadRAW, loadRAWwithClass
 from tokenization import tokenize, tokenizarSinLimpiar
+from evaluation import classToClass
 import vectorization
 import sys
 import sentimentAnalysis
@@ -44,8 +45,9 @@ if __name__ == '__main__':
     # epsilon = float(sys.argv[5])
     # minPts = int(sys.argv[6])
     path = f'Datasets\Suicide_Detection{nInstances}.csv'
-    #rawData, rawDataWithClass, textEmbeddings = preProcess(nInstances, vectorsDimension, vectorizationMode)
     rawData = loadRAW(path)
-    sentimientos = sentimentAnalysis.getSentimentAndClass(rawData)
+    rawDataWithClass = loadRAWwithClass(path)
+    sentimientos = sentimentAnalysis.getArgmaxSentiment()
+    classToClass(rawDataWithClass, sentimientos)
     #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
     #evaluate(rawData, rawDataWithClass, clusters, numClusters)
