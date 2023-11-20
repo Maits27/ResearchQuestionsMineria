@@ -35,12 +35,13 @@ def selectDataset(path, emotionsToQuit, numInstances):
 	kontSuicide = 0
 	kontNonSuicide = 0
 
-	while kontTotal <= numInstances:
+	while kontTotal < numInstances:
 		instancia = data.iloc[k]
 
 		id_value = instancia['id']
 		text_value = instancia['text']
 		class_value = instancia['class']
+		print(f'INSTANCIA: {instancia}')
 
 		truncated_instance = truncate_text(text_value)
 		prediction = classifier(truncated_instance, )[0]
@@ -49,6 +50,8 @@ def selectDataset(path, emotionsToQuit, numInstances):
 			pjson[emotion['label']] = emotion['score']
 
 		emocionDominante = max(pjson, key=pjson.get)
+		print(f'EMOCION: {emocionDominante}')
+
 		if emocionDominante not in emotionsToQuit:
 			if class_value == 'suicide' and kontSuicide < int(numInstances/2):
 				kontSuicide += 1
@@ -56,12 +59,15 @@ def selectDataset(path, emotionsToQuit, numInstances):
 				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
 					writer = csv.writer(file)
 					writer.writerow([id_value, text_value, class_value])
+				print(f'Se añade\n')
+
 			elif class_value == 'non-suicide' and kontNonSuicide < int(numInstances/2):
 				kontNonSuicide += 1
 				kontTotal += 1
 				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
 					writer = csv.writer(file)
 					writer.writerow([id_value, text_value, class_value])
+				print(f'Se añade\n')
 
 		k += 1
 
@@ -160,9 +166,5 @@ def takeThresDataset2(path, fiabilidad):
 
 
 if __name__ == '__main__':
-	datsetPath = sys.argv[1]
-	numTrainInstances = int(sys.argv[2])
-	numTestInstances = int(sys.argv[3])
-	pathToWrite = sys.argv[4]
 
-	reduceDataset(datsetPath, numTrainInstances, numTestInstances)
+	selectDataset('..\Datasets\\15.csv', ['anger'], 4)

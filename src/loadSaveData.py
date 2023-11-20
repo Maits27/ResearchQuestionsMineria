@@ -25,13 +25,6 @@ def loadTextRaw(path):
 def loadClassTextList(path):
     data = pd.read_csv(path)
     return [[instancia[1], instancia[2]] for instancia in data.values]
-# def formatoParaEmbeddingProjector(dim, l):
-#     file_name = f"../out/eProjectorTSV/VectoresDoc_L{l}_D{dim}.tsv"
-#     document_vectors = loadEmbeddings(length=l, dimension=dim)
-#     with open(file_name, 'w', newline='') as tsvfile:
-#         writer = csv.writer(tsvfile, delimiter='\t')
-#         for vector in document_vectors:
-#             writer.writerow(vector)
 
 
 def saveTokens(textosTokenizados):

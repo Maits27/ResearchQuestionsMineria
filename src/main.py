@@ -41,10 +41,7 @@ if __name__ == '__main__':
         nInstances = int(sys.argv[1])
         nTest = int(nInstances / 10)
         vectorsDimension = int(sys.argv[2])
-        if sys.argv[3] == 'doc2vec':
-            vectorizationMode = vectorization.doc2vec
-        elif sys.argv[3] == 'bert':
-            vectorizationMode = vectorization.bertTransformer
+        vectorizationMode = vectorization.bertTransformer
 
     fiabilidad = 0.9
 
