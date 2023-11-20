@@ -2,7 +2,7 @@ from loadSaveData import loadRAW, loadRAWwithClass, loadClassTextList, loadTextR
 from tokenization import tokenize, tokenizarSinLimpiar
 from evaluation import classToClass, multiClassToClass, classDistribution
 import vectorization
-from reduceDataset import takeThresDataset, reduceDataset, takeThresDataset2
+from reduceDataset import reduceDataset, takeThresDataset2
 import sys
 import sentimentAnalysis
 
@@ -33,8 +33,8 @@ def evaluate(rawData, rawDataWithClass, clusters, numClusters):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        nInstances = 50000
-        nTest = int(nInstances / 10)
+        nInstances = 20000
+        nTest = 1
         vectorsDimension = 768
         vectorizationMode = vectorization.bertTransformer
     else:
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     path = f'..\Datasets\Suicide_Detection_train{nInstances}(test{nTest}).csv'
 
-    # sentimentAnalysis.getSentiment(loadTextRaw(path))
+    sentimentAnalysis.getSentiment(loadTextRaw(path))
     sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
     sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
 
