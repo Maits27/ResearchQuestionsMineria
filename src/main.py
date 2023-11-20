@@ -1,7 +1,8 @@
-from loadSaveData import loadRAW, loadRAWwithClass
+from loadSaveData import loadRAW, loadRAWwithClass, loadClassTextList, loadTextRaw
 from tokenization import tokenize, tokenizarSinLimpiar
-from evaluation import classToClass
+from evaluation import classToClass, multiClassToClass, classDistribution
 import vectorization
+from reduceDataset import takeThresDataset, reduceDataset, takeThresDataset2
 import sys
 import sentimentAnalysis
 
@@ -32,22 +33,33 @@ def evaluate(rawData, rawDataWithClass, clusters, numClusters):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        nInstances = 10000
+        nInstances = 50000
+        nTest = int(nInstances / 10)
         vectorsDimension = 768
         vectorizationMode = vectorization.bertTransformer
     else:
         nInstances = int(sys.argv[1])
+        nTest = int(nInstances / 10)
         vectorsDimension = int(sys.argv[2])
         if sys.argv[3] == 'doc2vec':
             vectorizationMode = vectorization.doc2vec
         elif sys.argv[3] == 'bert':
             vectorizationMode = vectorization.bertTransformer
-    # epsilon = float(sys.argv[5])
-    # minPts = int(sys.argv[6])
-    path = f'Datasets\Suicide_Detection{nInstances}.csv'
-    rawData = loadRAW(path)
-    rawDataWithClass = loadRAWwithClass(path)
-    sentimientos = sentimentAnalysis.getArgmaxSentiment()
-    classToClass(rawDataWithClass, sentimientos)
+
+    fiabilidad = 0.9
+
+    path = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
+
+    classDistribution(path, fiabilidad)
+
+    reduceDataset(path, nInstances, nTest)
+
+    path = f'..\Datasets\Suicide_Detection_train{nInstances}(test{nTest}).csv'
+
+    # sentimentAnalysis.getSentiment(loadTextRaw(path))
+    sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
+    sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
+
+    classToClass(loadRAW(path), sentimientos, nInstances)
     #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
     #evaluate(rawData, rawDataWithClass, clusters, numClusters)

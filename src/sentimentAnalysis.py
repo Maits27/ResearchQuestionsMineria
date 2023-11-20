@@ -10,10 +10,10 @@ def truncate_text(text, max_length=512):
     Trunca el texto si excede la longitud máxima permitida.
     """
     return text[:max_length]
-def getArgmaxSentimentAndClass(classData):
+def getArgmaxSentimentAndClass(classData, nInstances):
     try:
         # Lee el array de JSONs desde el archivo con la codificación UTF-8
-        with open('emocionesEnumeradas.json', 'r', encoding='utf-8') as json_file:
+        with open(f'../out/emociones/emocionesEnumeradas_{nInstances}.json', 'r', encoding='utf-8') as json_file:
             emociones_array = json.load(json_file)
         emocionesDominantes = []
         for i, text in enumerate(emociones_array):
@@ -23,7 +23,7 @@ def getArgmaxSentimentAndClass(classData):
             nuevaEmocionDom['clase'] = classData[i][1]
             emocionesDominantes.append(nuevaEmocionDom)
 
-        with open('emocionesDominantesConClase.json', 'w', encoding='utf-8') as json_file:
+        with open(f'../out/emociones/emocionesDominantesConClase_{nInstances}.json', 'w', encoding='utf-8') as json_file:
             json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
 
         return 0
@@ -31,10 +31,10 @@ def getArgmaxSentimentAndClass(classData):
     except FileNotFoundError:
         print(f"El archivo  no fue encontrado.")
         return -1
-def getArgmaxSentiment():
+def getArgmaxSentiment(nInstances):
     try:
         # Lee el array de JSONs desde el archivo con la codificación UTF-8
-        with open('out\emociones\emocionesEnumeradas.json', 'r', encoding='utf-8') as json_file:
+        with open(f'..\out\emociones\emocionesEnumeradas_{nInstances}.json', 'r', encoding='utf-8') as json_file:
             emociones_array = json.load(json_file)
         emocionesDominantes = []
         res = []
@@ -45,7 +45,7 @@ def getArgmaxSentiment():
             res.append(nuevaEmocionDom['emocion'])
             emocionesDominantes.append(nuevaEmocionDom)
 
-        with open('emocionesDominantes.json', 'w', encoding='utf-8') as json_file:
+        with open(f'..\out\emociones\emocionesDominantes_{nInstances}.json', 'w', encoding='utf-8') as json_file:
             json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
 
         return res
@@ -53,6 +53,52 @@ def getArgmaxSentiment():
     except FileNotFoundError:
         print(f"El archivo  no fue encontrado.")
         return []
+
+
+def getMultiArgmaxSentiment(fiabilidad=0.8):
+
+    try:
+        # Lee el array de JSONs desde el archivo con la codificación UTF-8
+        with open('..\out\emociones\emocionesEnumeradas.json', 'r', encoding='utf-8') as json_file:
+            emociones_array = json.load(json_file)
+        emocionesDominantes = []
+        res = []
+        for i, text in enumerate(emociones_array):
+            nuevaEmocionDom = {}
+            nuevaEmocionDom['instancia'] = text['instancia']
+            emociones = []
+            for emocion, valor in text['emociones'].items():
+                if valor > fiabilidad:
+                    emociones.append(emocion)
+            nuevaEmocionDom['emocion'] = emociones
+            res.append(emociones)
+            emocionesDominantes.append(nuevaEmocionDom)
+
+        with open('..\out\emociones\emocionesDominantes.json', 'w', encoding='utf-8') as json_file:
+            json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
+
+        return res
+
+    except FileNotFoundError:
+        print(f"El archivo  no fue encontrado.")
+        return []
+# def getMultiArgmaxSentiment1Instance(instancia, fiabilidad=0.8):
+#     classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
+#                           return_all_scores=True)
+#     truncated_instance = truncate_text(instancia)
+#     prediction = classifier(truncated_instance, )[0]
+#     res = []
+#     pjson = {}
+#     for emotion in prediction:
+#         pjson[emotion['label']] = emotion['score']
+#
+#     for emocion, valor in pjson.items():
+#         if valor > fiabilidad:
+#             res.append(emocion)
+#
+#     return res
+
+
 
 
 def getSentiment(rawData):
@@ -74,7 +120,7 @@ def getSentiment(rawData):
 
         predictions.append(pjson)
 
-    with open('emocionesEnumeradas.json', 'w', encoding='utf-8') as json_file:
+    with open('..\out\emociones\emocionesEnumeradas.json', 'w', encoding='utf-8') as json_file:
         json.dump(predictions, json_file, indent=2, ensure_ascii=False)
 
     getArgmaxSentiment()
@@ -99,7 +145,7 @@ def getSentimentAndClass(classData):
 
         predictions.append(pjson)
 
-    with open('emocionesEnumeradasConClase.json', 'w', encoding='utf-8') as json_file:
+    with open('..\out\emociones\emocionesEnumeradasConClase.json', 'w', encoding='utf-8') as json_file:
         json.dump(predictions, json_file, indent=2, ensure_ascii=False)
 
     return predictions
