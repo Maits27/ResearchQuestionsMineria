@@ -84,7 +84,7 @@ def reduceDataset(path, numTrainInstances, numTestInstances):
 
 		return trainDataset, testDataset
 
-def takeThresDataset2(path, fiabilidad):
+def takeThresDataset(path, fiabilidad):
 	archivo_salida = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
 
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
@@ -97,10 +97,9 @@ def takeThresDataset2(path, fiabilidad):
 
 	data = loadRAW(path)
 
-	k = 30521
-	kont = 0
+	k = 0
 
-	while k <= 200000:
+	while k <= 10000:
 		instancia = data.iloc[k]
 
 		id_value = instancia['id']
@@ -118,13 +117,12 @@ def takeThresDataset2(path, fiabilidad):
 			if valor > fiabilidad:
 				res.append(emocion)
 		if len(res) > 0:
-			kont += 1
 			with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
 				writer = csv.writer(file)
 				writer.writerow([id_value, text_value, class_value])
 
-		k += 1
-	print(kont)
+			k += 1
+			print(k)
 
 
 # def takeThresDataset(path, fiabilidad):

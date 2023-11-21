@@ -2,7 +2,7 @@ from loadSaveData import loadRAW, loadRAWwithClass, loadClassTextList, loadTextR
 from tokenization import tokenize, tokenizarSinLimpiar
 from evaluation import classToClass, multiClassToClass, classDistribution
 import vectorization
-from reduceDataset import reduceDataset, takeThresDataset2
+from reduceDataset import reduceDataset, takeThresDataset
 import sys
 import sentimentAnalysis
 
@@ -44,19 +44,22 @@ if __name__ == '__main__':
         vectorizationMode = vectorization.bertTransformer
 
     fiabilidad = 0.9
+    path = f'..\Datasets\Suicide_Detection10000.csv'
 
-    path = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
+    takeThresDataset(path, fiabilidad)
 
-    classDistribution(path, fiabilidad)
-
-    reduceDataset(path, nInstances, nTest)
-
-    path = f'..\Datasets\Suicide_Detection_train{nInstances}(test{nTest}).csv'
-
-    sentimentAnalysis.getSentiment(loadTextRaw(path))
-    sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
-    sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
-
-    classToClass(loadRAW(path), sentimientos, nInstances)
-    #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
-    #evaluate(rawData, rawDataWithClass, clusters, numClusters)
+    # path = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
+    #
+    # classDistribution(path, fiabilidad)
+    #
+    # reduceDataset(path, nInstances, nTest)
+    #
+    # path = f'..\Datasets\Suicide_Detection_train{nInstances}(test{nTest}).csv'
+    #
+    # sentimentAnalysis.getSentiment(loadTextRaw(path))
+    # sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
+    # sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
+    #
+    # classToClass(loadRAW(path), sentimientos, nInstances)
+    # #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)
+    # #evaluate(rawData, rawDataWithClass, clusters, numClusters)
