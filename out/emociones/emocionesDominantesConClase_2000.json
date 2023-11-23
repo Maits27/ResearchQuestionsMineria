@@ -1,0 +1,10002 @@
+[
+  {
+    "instancia": 0,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 2,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 3,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 4,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 5,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 6,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 7,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 8,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 9,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 10,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 11,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 12,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 13,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 14,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 15,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 16,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 17,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 18,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 19,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 20,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 21,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 22,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 23,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 24,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 25,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 26,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 27,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 28,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 29,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 30,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 31,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 32,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 33,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 34,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 35,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 36,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 37,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 38,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 39,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 40,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 41,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 42,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 43,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 44,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 45,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 46,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 47,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 48,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 49,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 50,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 51,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 52,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 53,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 54,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 55,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 56,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 57,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 58,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 59,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 60,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 61,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 62,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 63,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 64,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 65,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 66,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 67,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 68,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 69,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 70,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 71,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 72,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 73,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 74,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 75,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 76,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 77,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 78,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 79,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 80,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 81,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 82,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 83,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 84,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 85,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 86,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 87,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 88,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 89,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 90,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 91,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 92,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 93,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 94,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 95,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 96,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 97,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 98,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 99,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 100,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 101,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 102,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 103,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 104,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 105,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 106,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 107,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 108,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 109,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 110,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 111,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 112,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 113,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 114,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 115,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 116,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 117,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 118,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 119,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 120,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 121,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 122,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 123,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 124,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 125,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 126,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 127,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 128,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 129,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 130,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 131,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 132,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 133,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 134,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 135,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 136,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 137,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 138,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 139,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 140,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 141,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 142,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 143,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 144,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 145,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 146,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 147,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 148,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 149,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 150,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 151,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 152,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 153,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 154,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 155,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 156,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 157,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 158,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 159,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 160,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 161,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 162,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 163,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 164,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 165,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 166,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 167,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 168,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 169,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 170,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 171,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 172,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 173,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 174,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 175,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 176,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 177,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 178,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 179,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 180,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 181,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 182,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 183,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 184,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 185,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 186,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 187,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 188,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 189,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 190,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 191,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 192,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 193,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 194,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 195,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 196,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 197,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 198,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 199,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 200,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 201,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 202,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 203,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 204,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 205,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 206,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 207,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 208,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 209,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 210,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 211,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 212,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 213,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 214,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 215,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 216,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 217,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 218,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 219,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 220,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 221,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 222,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 223,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 224,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 225,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 226,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 227,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 228,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 229,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 230,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 231,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 232,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 233,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 234,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 235,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 236,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 237,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 238,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 239,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 240,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 241,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 242,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 243,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 244,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 245,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 246,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 247,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 248,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 249,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 250,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 251,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 252,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 253,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 254,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 255,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 256,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 257,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 258,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 259,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 260,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 261,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 262,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 263,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 264,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 265,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 266,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 267,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 268,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 269,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 270,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 271,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 272,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 273,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 274,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 275,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 276,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 277,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 278,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 279,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 280,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 281,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 282,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 283,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 284,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 285,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 286,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 287,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 288,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 289,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 290,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 291,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 292,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 293,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 294,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 295,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 296,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 297,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 298,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 299,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 300,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 301,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 302,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 303,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 304,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 305,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 306,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 307,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 308,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 309,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 310,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 311,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 312,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 313,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 314,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 315,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 316,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 317,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 318,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 319,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 320,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 321,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 322,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 323,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 324,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 325,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 326,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 327,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 328,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 329,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 330,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 331,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 332,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 333,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 334,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 335,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 336,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 337,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 338,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 339,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 340,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 341,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 342,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 343,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 344,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 345,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 346,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 347,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 348,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 349,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 350,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 351,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 352,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 353,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 354,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 355,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 356,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 357,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 358,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 359,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 360,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 361,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 362,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 363,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 364,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 365,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 366,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 367,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 368,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 369,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 370,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 371,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 372,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 373,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 374,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 375,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 376,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 377,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 378,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 379,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 380,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 381,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 382,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 383,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 384,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 385,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 386,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 387,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 388,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 389,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 390,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 391,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 392,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 393,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 394,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 395,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 396,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 397,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 398,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 399,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 400,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 401,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 402,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 403,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 404,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 405,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 406,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 407,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 408,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 409,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 410,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 411,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 412,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 413,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 414,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 415,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 416,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 417,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 418,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 419,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 420,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 421,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 422,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 423,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 424,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 425,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 426,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 427,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 428,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 429,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 430,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 431,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 432,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 433,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 434,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 435,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 436,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 437,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 438,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 439,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 440,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 441,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 442,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 443,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 444,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 445,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 446,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 447,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 448,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 449,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 450,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 451,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 452,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 453,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 454,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 455,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 456,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 457,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 458,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 459,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 460,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 461,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 462,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 463,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 464,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 465,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 466,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 467,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 468,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 469,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 470,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 471,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 472,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 473,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 474,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 475,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 476,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 477,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 478,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 479,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 480,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 481,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 482,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 483,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 484,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 485,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 486,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 487,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 488,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 489,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 490,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 491,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 492,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 493,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 494,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 495,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 496,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 497,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 498,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 499,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 500,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 501,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 502,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 503,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 504,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 505,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 506,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 507,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 508,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 509,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 510,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 511,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 512,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 513,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 514,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 515,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 516,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 517,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 518,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 519,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 520,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 521,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 522,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 523,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 524,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 525,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 526,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 527,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 528,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 529,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 530,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 531,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 532,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 533,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 534,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 535,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 536,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 537,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 538,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 539,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 540,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 541,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 542,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 543,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 544,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 545,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 546,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 547,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 548,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 549,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 550,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 551,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 552,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 553,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 554,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 555,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 556,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 557,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 558,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 559,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 560,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 561,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 562,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 563,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 564,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 565,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 566,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 567,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 568,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 569,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 570,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 571,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 572,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 573,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 574,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 575,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 576,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 577,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 578,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 579,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 580,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 581,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 582,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 583,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 584,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 585,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 586,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 587,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 588,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 589,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 590,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 591,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 592,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 593,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 594,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 595,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 596,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 597,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 598,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 599,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 600,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 601,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 602,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 603,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 604,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 605,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 606,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 607,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 608,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 609,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 610,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 611,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 612,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 613,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 614,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 615,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 616,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 617,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 618,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 619,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 620,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 621,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 622,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 623,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 624,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 625,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 626,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 627,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 628,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 629,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 630,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 631,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 632,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 633,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 634,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 635,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 636,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 637,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 638,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 639,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 640,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 641,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 642,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 643,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 644,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 645,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 646,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 647,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 648,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 649,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 650,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 651,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 652,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 653,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 654,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 655,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 656,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 657,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 658,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 659,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 660,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 661,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 662,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 663,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 664,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 665,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 666,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 667,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 668,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 669,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 670,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 671,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 672,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 673,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 674,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 675,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 676,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 677,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 678,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 679,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 680,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 681,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 682,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 683,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 684,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 685,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 686,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 687,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 688,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 689,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 690,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 691,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 692,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 693,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 694,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 695,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 696,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 697,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 698,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 699,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 700,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 701,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 702,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 703,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 704,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 705,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 706,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 707,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 708,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 709,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 710,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 711,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 712,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 713,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 714,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 715,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 716,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 717,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 718,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 719,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 720,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 721,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 722,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 723,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 724,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 725,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 726,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 727,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 728,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 729,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 730,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 731,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 732,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 733,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 734,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 735,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 736,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 737,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 738,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 739,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 740,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 741,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 742,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 743,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 744,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 745,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 746,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 747,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 748,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 749,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 750,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 751,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 752,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 753,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 754,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 755,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 756,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 757,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 758,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 759,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 760,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 761,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 762,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 763,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 764,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 765,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 766,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 767,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 768,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 769,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 770,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 771,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 772,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 773,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 774,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 775,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 776,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 777,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 778,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 779,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 780,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 781,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 782,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 783,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 784,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 785,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 786,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 787,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 788,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 789,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 790,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 791,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 792,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 793,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 794,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 795,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 796,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 797,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 798,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 799,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 800,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 801,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 802,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 803,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 804,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 805,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 806,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 807,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 808,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 809,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 810,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 811,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 812,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 813,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 814,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 815,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 816,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 817,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 818,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 819,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 820,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 821,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 822,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 823,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 824,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 825,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 826,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 827,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 828,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 829,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 830,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 831,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 832,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 833,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 834,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 835,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 836,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 837,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 838,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 839,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 840,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 841,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 842,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 843,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 844,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 845,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 846,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 847,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 848,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 849,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 850,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 851,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 852,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 853,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 854,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 855,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 856,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 857,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 858,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 859,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 860,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 861,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 862,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 863,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 864,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 865,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 866,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 867,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 868,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 869,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 870,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 871,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 872,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 873,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 874,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 875,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 876,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 877,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 878,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 879,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 880,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 881,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 882,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 883,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 884,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 885,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 886,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 887,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 888,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 889,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 890,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 891,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 892,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 893,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 894,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 895,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 896,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 897,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 898,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 899,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 900,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 901,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 902,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 903,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 904,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 905,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 906,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 907,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 908,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 909,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 910,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 911,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 912,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 913,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 914,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 915,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 916,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 917,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 918,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 919,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 920,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 921,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 922,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 923,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 924,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 925,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 926,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 927,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 928,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 929,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 930,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 931,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 932,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 933,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 934,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 935,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 936,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 937,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 938,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 939,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 940,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 941,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 942,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 943,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 944,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 945,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 946,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 947,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 948,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 949,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 950,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 951,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 952,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 953,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 954,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 955,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 956,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 957,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 958,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 959,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 960,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 961,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 962,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 963,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 964,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 965,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 966,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 967,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 968,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 969,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 970,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 971,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 972,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 973,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 974,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 975,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 976,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 977,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 978,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 979,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 980,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 981,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 982,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 983,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 984,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 985,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 986,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 987,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 988,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 989,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 990,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 991,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 992,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 993,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 994,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 995,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 996,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 997,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 998,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 999,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1000,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1001,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1002,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1003,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1004,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1005,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1006,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1007,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1008,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1009,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1010,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1011,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1012,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1013,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1014,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1015,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1016,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1017,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1018,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1019,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1020,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1021,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1022,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1023,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1024,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1025,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1026,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1027,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1028,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1029,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1030,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1031,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1032,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1033,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1034,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1035,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1036,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1037,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1038,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1039,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1040,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1041,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1042,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1043,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1044,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1045,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1046,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1047,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1048,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1049,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1050,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1051,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1052,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1053,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1054,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1055,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1056,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1057,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1058,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1059,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1060,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1061,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1062,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1063,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1064,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1065,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1066,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1067,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1068,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1069,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1070,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1071,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1072,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1073,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1074,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1075,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1076,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1077,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1078,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1079,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1080,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1081,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1082,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1083,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1084,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1085,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1086,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1087,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1088,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1089,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1090,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1091,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1092,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1093,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1094,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1095,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1096,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1097,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1098,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1099,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1100,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1101,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1102,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1103,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1104,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1105,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1106,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1107,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1108,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1109,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1110,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1111,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1112,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1113,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1114,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1115,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1116,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1117,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1118,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1119,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1120,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1121,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1122,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1123,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1124,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1125,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1126,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1127,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1128,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1129,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1130,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1131,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1132,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1133,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1134,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1135,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1136,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1137,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1138,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1139,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1140,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1141,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1142,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1143,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1144,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1145,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1146,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1147,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1148,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1149,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1150,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1151,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1152,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1153,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1154,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1155,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1156,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1157,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1158,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1159,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1160,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1161,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1162,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1163,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1164,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1165,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1166,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1167,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1168,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1169,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1170,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1171,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1172,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1173,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1174,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1175,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1176,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1177,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1178,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1179,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1180,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1181,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1182,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1183,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1184,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1185,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1186,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1187,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1188,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1189,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1190,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1191,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1192,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1193,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1194,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1195,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1196,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1197,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1198,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1199,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1200,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1201,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1202,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1203,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1204,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1205,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1206,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1207,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1208,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1209,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1210,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1211,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1212,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1213,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1214,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1215,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1216,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1217,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1218,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1219,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1220,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1221,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1222,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1223,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1224,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1225,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1226,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1227,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1228,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1229,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1230,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1231,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1232,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1233,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1234,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1235,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1236,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1237,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1238,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1239,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1240,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1241,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1242,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1243,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1244,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1245,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1246,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1247,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1248,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1249,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1250,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1251,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1252,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1253,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1254,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1255,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1256,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1257,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1258,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1259,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1260,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1261,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1262,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1263,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1264,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1265,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1266,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1267,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1268,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1269,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1270,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1271,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1272,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1273,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1274,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1275,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1276,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1277,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1278,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1279,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1280,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1281,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1282,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1283,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1284,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1285,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1286,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1287,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1288,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1289,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1290,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1291,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1292,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1293,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1294,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1295,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1296,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1297,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1298,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1299,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1300,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1301,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1302,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1303,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1304,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1305,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1306,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1307,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1308,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1309,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1310,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1311,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1312,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1313,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1314,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1315,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1316,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1317,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1318,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1319,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1320,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1321,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1322,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1323,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1324,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1325,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1326,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1327,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1328,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1329,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1330,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1331,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1332,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1333,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1334,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1335,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1336,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1337,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1338,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1339,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1340,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1341,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1342,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1343,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1344,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1345,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1346,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1347,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1348,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1349,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1350,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1351,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1352,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1353,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1354,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1355,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1356,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1357,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1358,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1359,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1360,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1361,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1362,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1363,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1364,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1365,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1366,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1367,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1368,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1369,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1370,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1371,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1372,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1373,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1374,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1375,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1376,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1377,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1378,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1379,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1380,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1381,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1382,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1383,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1384,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1385,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1386,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1387,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1388,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1389,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1390,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1391,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1392,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1393,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1394,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1395,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1396,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1397,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1398,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1399,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1400,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1401,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1402,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1403,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1404,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1405,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1406,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1407,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1408,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1409,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1410,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1411,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1412,
+    "emocion": "sadness",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1413,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1414,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1415,
+    "emocion": "sadness",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1416,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1417,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1418,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1419,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1420,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1421,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1422,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1423,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1424,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1425,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1426,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1427,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1428,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1429,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1430,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1431,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1432,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1433,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1434,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1435,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1436,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1437,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1438,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1439,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1440,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1441,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1442,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1443,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1444,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1445,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1446,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1447,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1448,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1449,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1450,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1451,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1452,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1453,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1454,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1455,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1456,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1457,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1458,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1459,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1460,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1461,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1462,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1463,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1464,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1465,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1466,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1467,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1468,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1469,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1470,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1471,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1472,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1473,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1474,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1475,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1476,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1477,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1478,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1479,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1480,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1481,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1482,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1483,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1484,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1485,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1486,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1487,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1488,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1489,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1490,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1491,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1492,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1493,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1494,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1495,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1496,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1497,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1498,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1499,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1500,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1501,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1502,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1503,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1504,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1505,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1506,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1507,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1508,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1509,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1510,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1511,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1512,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1513,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1514,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1515,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1516,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1517,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1518,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1519,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1520,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1521,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1522,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1523,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1524,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1525,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1526,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1527,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1528,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1529,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1530,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1531,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1532,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1533,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1534,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1535,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1536,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1537,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1538,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1539,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1540,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1541,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1542,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1543,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1544,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1545,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1546,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1547,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1548,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1549,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1550,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1551,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1552,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1553,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1554,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1555,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1556,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1557,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1558,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1559,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1560,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1561,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1562,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1563,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1564,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1565,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1566,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1567,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1568,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1569,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1570,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1571,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1572,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1573,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1574,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1575,
+    "emocion": "joy",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1576,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1577,
+    "emocion": "joy",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1578,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1579,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1580,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1581,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1582,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1583,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1584,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1585,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1586,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1587,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1588,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1589,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1590,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1591,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1592,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1593,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1594,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1595,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1596,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1597,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1598,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1599,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1600,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1601,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1602,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1603,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1604,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1605,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1606,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1607,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1608,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1609,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1610,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1611,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1612,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1613,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1614,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1615,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1616,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1617,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1618,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1619,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1620,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1621,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1622,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1623,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1624,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1625,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1626,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1627,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1628,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1629,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1630,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1631,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1632,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1633,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1634,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1635,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1636,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1637,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1638,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1639,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1640,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1641,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1642,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1643,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1644,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1645,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1646,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1647,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1648,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1649,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1650,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1651,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1652,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1653,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1654,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1655,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1656,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1657,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1658,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1659,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1660,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1661,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1662,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1663,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1664,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1665,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1666,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1667,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1668,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1669,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1670,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1671,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1672,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1673,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1674,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1675,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1676,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1677,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1678,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1679,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1680,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1681,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1682,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1683,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1684,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1685,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1686,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1687,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1688,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1689,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1690,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1691,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1692,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1693,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1694,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1695,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1696,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1697,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1698,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1699,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1700,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1701,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1702,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1703,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1704,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1705,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1706,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1707,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1708,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1709,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1710,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1711,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1712,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1713,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1714,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1715,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1716,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1717,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1718,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1719,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1720,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1721,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1722,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1723,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1724,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1725,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1726,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1727,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1728,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1729,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1730,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1731,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1732,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1733,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1734,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1735,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1736,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1737,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1738,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1739,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1740,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1741,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1742,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1743,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1744,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1745,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1746,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1747,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1748,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1749,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1750,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1751,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1752,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1753,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1754,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1755,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1756,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1757,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1758,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1759,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1760,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1761,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1762,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1763,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1764,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1765,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1766,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1767,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1768,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1769,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1770,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1771,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1772,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1773,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1774,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1775,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1776,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1777,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1778,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1779,
+    "emocion": "anger",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1780,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1781,
+    "emocion": "anger",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1782,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1783,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1784,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1785,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1786,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1787,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1788,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1789,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1790,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1791,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1792,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1793,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1794,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1795,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1796,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1797,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1798,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1799,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1800,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1801,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1802,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1803,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1804,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1805,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1806,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1807,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1808,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1809,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1810,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1811,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1812,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1813,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1814,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1815,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1816,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1817,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1818,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1819,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1820,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1821,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1822,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1823,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1824,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1825,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1826,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1827,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1828,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1829,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1830,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1831,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1832,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1833,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1834,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1835,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1836,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1837,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1838,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1839,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1840,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1841,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1842,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1843,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1844,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1845,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1846,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1847,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1848,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1849,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1850,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1851,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1852,
+    "emocion": "fear",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1853,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1854,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1855,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1856,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1857,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1858,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1859,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1860,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1861,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1862,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1863,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1864,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1865,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1866,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1867,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1868,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1869,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1870,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1871,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1872,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1873,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1874,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1875,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1876,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1877,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1878,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1879,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1880,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1881,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1882,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1883,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1884,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1885,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1886,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1887,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1888,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1889,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1890,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1891,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1892,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1893,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1894,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1895,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1896,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1897,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1898,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1899,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1900,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1901,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1902,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1903,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1904,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1905,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1906,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1907,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1908,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1909,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1910,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1911,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1912,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1913,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1914,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1915,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1916,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1917,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1918,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1919,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1920,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1921,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1922,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1923,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1924,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1925,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1926,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1927,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1928,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1929,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1930,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1931,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1932,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1933,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1934,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1935,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1936,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1937,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1938,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1939,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1940,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1941,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1942,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1943,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1944,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1945,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1946,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1947,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1948,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1949,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1950,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1951,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1952,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1953,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1954,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1955,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1956,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1957,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1958,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1959,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1960,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1961,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1962,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1963,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1964,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1965,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1966,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1967,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1968,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1969,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1970,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1971,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1972,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1973,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1974,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1975,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1976,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1977,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1978,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1979,
+    "emocion": "surprise",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1980,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1981,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1982,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1983,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1984,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1985,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1986,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1987,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1988,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1989,
+    "emocion": "surprise",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1990,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1991,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1992,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1993,
+    "emocion": "love",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1994,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1995,
+    "emocion": "love",
+    "clase": "non-suicide"
+  },
+  {
+    "instancia": 1996,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1997,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1998,
+    "emocion": "fear",
+    "clase": "suicide"
+  },
+  {
+    "instancia": 1999,
+    "emocion": "love",
+    "clase": "non-suicide"
+  }
+]

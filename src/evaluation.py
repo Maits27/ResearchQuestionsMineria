@@ -14,6 +14,14 @@ def clase_a_num(data):
         else:
             res.append(1)
     return res
+def clase_a_num2(clases):
+    res = []
+    for i, c in enumerate(clases):
+        if c.__eq__('suicide'):
+            res.append(0)
+        else:
+            res.append(1)
+    return res
 
 
 def sentimiento_a_num(data):
@@ -154,4 +162,51 @@ def classDistribution(path, fiabilidad):
     plt.ylabel('Number of Instances')
     plt.title(f"Class distribution Matrix Fiabilidad {fiabilidad}")
     plt.savefig(f'..\img\ClassDistribution_ConFiabilidad_{fiabilidad}_{suicide_count+non_suicide_count}_Instanccias.png')
+    plt.show()
+
+def classToClassPorEmocion(clasesReales, predicciones, sentimientos, emocion):
+    """
+    data: tiene que ser un dataframe con un campo 'text' y 'class'
+    """
+    c = []
+    p = []
+    for i, sentimiento in enumerate(sentimientos):
+        if sentimiento.__eq__(emocion):
+            c.append(clasesReales[i])
+            p.append(predicciones[i])
+    cr = clase_a_num2(c)
+    pr = clase_a_num2(p)
+    cm = confusion_matrix(pr, cr)
+    if len(cm)<2:
+        if cr[0]==1:
+            cm = [[0, 0], [0, len(p)]]
+        else:
+            cm = [[len(p), 0], [0, 0]]
+
+    # Supongamos que tienes 20 grupos y 2 clases
+    num_classes = len(nombres_clases := ['suicide', 'non-suicide'])
+
+    if num_classes <= num_classes:
+        cm = cm[:, :num_classes]
+    elif num_classes < num_classes:
+        cm = cm[:num_classes, :]
+
+    plt.figure(figsize=(10, 6))
+    plt.imshow(cm, cmap=plt.cm.Blues, aspect='auto', interpolation='nearest', vmin=0, vmax=2000)
+
+    # Personalizar el eje x y el eje y para mostrar los grupos y las clases
+    plt.xticks(np.arange(num_classes), [f'Clases reales {nombres_clases[i]}' for i in range(num_classes)])
+    plt.yticks(np.arange(num_classes), [f'Clases predichas {nombres_clases[i]}' for i in range(num_classes)])
+    thresh = cm.max() / 2.
+
+    for i in range(num_classes):
+        for j in range(num_classes):
+            plt.text(j, i, format(cm[i][j], 'd'), horizontalalignment="center",
+                     color="white" if cm[i, j] > thresh else "black")
+    # Etiquetas para los ejes
+    plt.xlabel("Clase real")
+    plt.ylabel("Clase predicha")
+
+    plt.title(f"Class2Class Matrix {emocion}")
+    plt.savefig(f'..\img\InitialMatrix_{emocion}')
     plt.show()

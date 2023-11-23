@@ -38,7 +38,7 @@ def print_number_distribution():
     distribution = {}
     for emocion in ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']:
         distribution[emocion] = {'suicide': 0, 'non-suicide': 0}
-    path='../out/emociones/emocionesDominantesConClaseBalanceadas_10000.json'
+    path='../out/emociones/emocionesDominantesConClase_2000.json'
     with open(path, 'r', encoding='utf-8') as json_file:
         emociones_array = json.load(json_file)
     for texto in emociones_array:
@@ -50,7 +50,7 @@ def print_number_distribution():
 
 
 if __name__ == '__main__':
-    data = loadRAW('../Datasets/Suicide_Detection_10000_Balanceado.csv')
+    data = loadRAW('../Datasets/Suicide_Detection_2000_Balanceado.csv')
 
     # instances_lengths = []
     # for text in data['text']:
