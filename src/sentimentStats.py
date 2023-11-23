@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-def plot_with_class_distribution(distribution):
+def plot_with_class_distribution(distribution, nInst, balanced):
     groups = ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']
     group_count = {
         'suicide': [distribution[group]['suicide'] for group in groups],
@@ -26,19 +26,19 @@ def plot_with_class_distribution(distribution):
         bottom += counts
 
 
-    ax.set_title("Class distribution on different feeling")
+    ax.set_title(f"Class distribution on different feeling for {nInst} instances ({balanced})")
     ax.legend(loc="upper right")
 
     plt.xticks(groups)
     plt.xlabel('Sentence main feeling')
     plt.ylabel('Number of texts')
+    plt.savefig(f'..\img\FeelingDistribution\ClassDistribution_{nInst}_{balanced}.png')
     plt.show()
 
-def print_number_distribution():
+def print_number_distribution(path):
     distribution = {}
     for emocion in ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']:
         distribution[emocion] = {'suicide': 0, 'non-suicide': 0}
-    path='../out/emociones/emocionesDominantesConClase_2000.json'
     with open(path, 'r', encoding='utf-8') as json_file:
         emociones_array = json.load(json_file)
     for texto in emociones_array:
@@ -60,5 +60,6 @@ if __name__ == '__main__':
     # print('Min words instance:', min(instances_lengths))
     # print('Average words:', np.mean(instances_lengths))
     # print('Standard deviation:', np.std(instances_lengths))
-    distribution = print_number_distribution()
+    path = '../out/emo/emocionesDominantesConClase_10000.json'
+    distribution = print_number_distribution(path)
     plot_with_class_distribution(distribution)

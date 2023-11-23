@@ -138,7 +138,80 @@ def takeThresDataset(path, fiabilidad):
 
 
 def selectDataset(path, numInstances):
-	archivo_salida = f'..\Datasets\Suicide_Detection_{numInstances}_Balanceado2.csv'
+	archivo_salida = f'..\Datasets\Suicide_Detection_{numInstances}_Balanceado.csv'
+
+	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
+						  return_all_scores=True)
+
+	if not Path(archivo_salida).is_file():
+		with open(archivo_salida, mode='a', encoding='utf-8') as file:
+			writer = csv.writer(file)
+			writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
+
+			data = loadRAW(path)
+
+			k = 0
+			kontTotal = 0
+			kontSuicide =0
+			kontNonSuicide =0
+			kontEmociones = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
+
+			while kontTotal < numInstances:
+				instancia = data.iloc[k]
+
+				id_value = instancia['id']
+				text_value = instancia['text']
+				class_value = instancia['class']
+
+				truncated_instance = truncate_text(text_value)
+				prediction = classifier(truncated_instance, )[0]
+				pjson = {}
+				for emotion in prediction:
+					pjson[emotion['label']] = emotion['score']
+
+				emocionDominante = max(pjson, key=pjson.get)
+
+				if emocionDominante.__eq__('surprise') or emocionDominante.__eq__('love'):
+					if class_value == 'suicide':
+						kontSuicide += 1
+						kontTotal += 1
+						with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
+							writer = csv.writer(file)
+							writer.writerow([id_value, text_value, class_value])
+
+					else:
+						kontNonSuicide += 1
+						kontTotal += 1
+						with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
+							writer = csv.writer(file)
+							writer.writerow([id_value, text_value, class_value])
+					kontEmociones[emocionDominante] += 1
+
+				elif kontEmociones[emocionDominante] < int(numInstances*0.22):
+					if class_value == 'suicide' and kontSuicide < int(numInstances/2):
+						kontSuicide += 1
+						kontEmociones[emocionDominante] += 1
+						kontTotal += 1
+						with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
+							writer = csv.writer(file)
+							writer.writerow([id_value, text_value, class_value])
+
+					elif class_value == 'non-suicide' and kontNonSuicide < int(numInstances/2):
+						kontNonSuicide += 1
+						kontEmociones[emocionDominante] += 1
+						kontTotal += 1
+						with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
+							writer = csv.writer(file)
+							writer.writerow([id_value, text_value, class_value])
+				k += 1
+				if kontTotal % 100 == 0:
+					print(kontTotal)
+
+	print(f'SE HA FORMADO UN DATASET BALANCEADO DE {kontTotal} INSTANCIAS')
+
+
+def selectDatasetSoloEmociones(path, numInstances):
+	archivo_salida = f'..\Datasets\Suicide_Detection_{numInstances}_Balanceado_SinContarClases.csv'
 
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
 						  return_all_scores=True)
@@ -150,13 +223,11 @@ def selectDataset(path, numInstances):
 
 	data = loadRAW(path)
 
-	k = 232000
+	k = 0
 	kontTotal = 0
-	kontSuicide = 0
-	kontNonSuicide = 0
 	kontEmociones = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
 
-	while kontTotal <= numInstances:
+	while kontTotal < numInstances:
 		instancia = data.iloc[k]
 
 		id_value = instancia['id']
@@ -171,42 +242,19 @@ def selectDataset(path, numInstances):
 
 		emocionDominante = max(pjson, key=pjson.get)
 
-		if emocionDominante.__eq__('surprise') or emocionDominante.__eq__('love'):
-			if class_value == 'suicide':
-				kontSuicide += 1
-				kontTotal += 1
-				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
-					writer = csv.writer(file)
-					writer.writerow([id_value, text_value, class_value])
-
-			else:
-				kontNonSuicide += 1
-				kontTotal += 1
-				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
-					writer = csv.writer(file)
-					writer.writerow([id_value, text_value, class_value])
+		if kontEmociones[emocionDominante] < int(numInstances * 0.22):
 			kontEmociones[emocionDominante] += 1
+			kontTotal += 1
+			with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
+				writer = csv.writer(file)
+				writer.writerow([id_value, text_value, class_value])
 
-		elif kontEmociones[emocionDominante] < (numInstances*0.25):
-			if class_value == 'suicide' and kontSuicide < int(numInstances/2):
-				kontSuicide += 1
-				kontEmociones[emocionDominante]+=1
-				kontTotal += 1
-				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
-					writer = csv.writer(file)
-					writer.writerow([id_value, text_value, class_value])
 
-			elif class_value == 'non-suicide' and kontNonSuicide < int(numInstances/2):
-				kontNonSuicide += 1
-				kontEmociones[emocionDominante] += 1
-				kontTotal += 1
-				with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
-					writer = csv.writer(file)
-					writer.writerow([id_value, text_value, class_value])
-		k -= 1
+		k += 1
 		if kontTotal % 100 == 0:
 			print(kontTotal)
 
+	print(f'SE HA FORMADO UN DATASET BALANCEADO POR EMOCION DE {kontTotal} INSTANCIAS')
 
 
 def crearMiniTests(path, nTest):
@@ -227,4 +275,6 @@ def crearMiniTests(path, nTest):
 
 if __name__ == '__main__':
 	#crearMiniTests('../Datasets/Suicide_Detection_2000_Balanceado.csv', 5)
-	selectDataset('../Datasets/Suicide_Detection.csv', 2000)
+	#selectDataset('../Datasets/Suicide_Detection.csv', 10000)
+	#reduceDataset2('../Datasets/Suicide_Detection.csv', 10000)
+	selectDatasetSoloEmociones('../Datasets/Suicide_Detection.csv', 10000)

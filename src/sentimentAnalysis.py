@@ -43,19 +43,20 @@ def getArgmaxSentimentAndClass(classData, nInstances):
         with open(f'../out/emociones/emocionesEnumeradas_{nInstances}.json', 'r', encoding='utf-8') as json_file:
             emociones_array = json.load(json_file)
         emocionesDominantes = []
+        kontEmo = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
         print(f'Textos de emociones: {len(emociones_array)}')
         print(f'Textos de clase: {len(classData)}')
         for i, text in enumerate(emociones_array):
             nuevaEmocionDom = {}
             nuevaEmocionDom['instancia'] = text['instancia']
             nuevaEmocionDom['emocion'] = max(text['emociones'], key=text['emociones'].get)
-            print(i)
+            kontEmo[nuevaEmocionDom['emocion']]+=1
             nuevaEmocionDom['clase'] = classData[i][1]
             emocionesDominantes.append(nuevaEmocionDom)
 
         with open(f'../out/emociones/emocionesDominantesConClase_{len(emocionesDominantes)}.json', 'w', encoding='utf-8') as json_file:
             json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
-
+        print(kontEmo)
         return 0
 
     except FileNotFoundError:
