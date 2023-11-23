@@ -107,7 +107,10 @@ if __name__ == '__main__':
     for text in data['text']:
         instances_lengths.append(len(text.split()))
 
+    print('Number os lengths:', len(instances_lengths))
     print('Max words instance:', max(instances_lengths))
+    print('Max words instance number:', instances_lengths.index(max(instances_lengths)))
+    print(data['text'][instances_lengths.index(max(instances_lengths))])
     print('Min words instance:', min(instances_lengths))
     print('Average words:', np.mean(instances_lengths))
     print('Standard deviation:', np.std(instances_lengths))
