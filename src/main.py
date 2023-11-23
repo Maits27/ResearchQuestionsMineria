@@ -2,7 +2,7 @@ from loadSaveData import loadRAW, loadRAWwithClass, loadClassTextList, loadTextR
 from tokenization import tokenize, tokenizarSinLimpiar
 from evaluation import classToClass, multiClassToClass, classDistribution
 import vectorization
-from reduceDataset import reduceDataset, takeThresDataset
+from reduceDataset import reduceDataset, takeThresDataset, reduceDataset2
 import sys
 import sentimentAnalysis
 
@@ -33,7 +33,7 @@ def evaluate(rawData, rawDataWithClass, clusters, numClusters):
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
-        nInstances = 20000
+        nInstances = 10000
         nTest = 1
         vectorsDimension = 768
         vectorizationMode = vectorization.bertTransformer
@@ -43,22 +43,25 @@ if __name__ == '__main__':
         vectorsDimension = int(sys.argv[2])
         vectorizationMode = vectorization.bertTransformer
 
-    fiabilidad = 0.9
-    path = f'..\Datasets\Suicide_Detection10000.csv'
+    fiabilidad = 0
+    path = f'..\Datasets\Suicide_Detection_10000_Balanceado.csv'
 
-    takeThresDataset(path, fiabilidad)
+    #reduceDataset2(path, nInstances)
+
+    #takeThresDataset(path, fiabilidad)
 
     # path = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
     #
-    # classDistribution(path, fiabilidad)
+    #classDistribution(path, fiabilidad)
     #
     # reduceDataset(path, nInstances, nTest)
     #
     # path = f'..\Datasets\Suicide_Detection_train{nInstances}(test{nTest}).csv'
     #
-    # sentimentAnalysis.getSentiment(loadTextRaw(path))
-    # sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
+    #sentimentAnalysis.getSentiment(loadTextRaw(path))
+    sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), nInstances)
     # sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
+    #sentimentAnalysis.getSentimentAndClassRoberta(loadRAWwithClass(path))
     #
     # classToClass(loadRAW(path), sentimientos, nInstances)
     # #clusters, numClusters = executeClustering(clusteringAlgorithm, epsilon, minPts)

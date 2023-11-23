@@ -113,6 +113,9 @@ def getSentiment(rawData):
     with open(f'..\out\emociones\emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
         json.dump(predictions, json_file, indent=2, ensure_ascii=False)
 
+    with open(f'emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
+        json.dump(predictions, json_file, indent=2, ensure_ascii=False)
+
     return predictions
 def getSentimentAndClass(classData):
     """
@@ -180,6 +183,71 @@ def getMultiArgmaxSentiment(nInst, fiabilidad=0.8):
     except FileNotFoundError:
         print(f"El archivo  no fue encontrado.")
         return []
+
+"""
+##########################################################################################
+####################### TODOS LOS SENTIMIENTOS OTRO ROBERTA ##############################
+##########################################################################################
+"""
+
+def getSentimentRoberta(rawData):
+    """
+    Recoje el porcentajde de cada sentimiento de cada texto
+    """
+    classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", top_k=None)
+
+    predictions = []
+
+    for i, instance in enumerate(rawData):
+        # Truncar el texto si es demasiado largo
+        truncated_instance = truncate_text(instance)
+
+        # Tokenizar el texto
+        prediction = classifier(truncated_instance, )[0]
+        pjson = {}
+        pjson['instancia'] = i
+        pjson['emociones'] = {}
+        for emotion in prediction:
+            pjson['emociones'][emotion['label']] = emotion['score']
+
+        predictions.append(pjson)
+
+    with open(f'..\out\emociones\emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
+        json.dump(predictions, json_file, indent=2, ensure_ascii=False)
+
+    with open(f'emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
+        json.dump(predictions, json_file, indent=2, ensure_ascii=False)
+
+    return predictions
+
+def getSentimentAndClassRoberta(classData):
+    """
+    Recoje el porcentaje de cada sentimiento y la clase de cada texto
+    """
+    classifier = pipeline(task="text-classification", model="SamLowe/roberta-base-go_emotions", top_k=None)
+    predictions = []
+    with open(f'..\out\emo\emocionesEnumeradasConClase_{len(predictions)}.json', 'a',
+              encoding='utf-8') as json_file:
+
+        for i, instance in enumerate(classData):
+            # Truncar el texto si es demasiado largo
+            truncated_instance = truncate_text(instance[0])
+
+            # Tokenizar el texto
+            prediction = classifier(truncated_instance, )[0]
+            pjson = {}
+            pjson['instancia'] = i
+            pjson['clase'] = instance[1]
+            pjson['emociones'] = {}
+            for emotion in prediction:
+                pjson['emociones'][emotion['label']] = emotion['score']
+
+            predictions.append(pjson)
+
+            json.dump(pjson, json_file, indent=2, ensure_ascii=False)
+
+    return predictions
+
 
 
 

@@ -142,6 +142,8 @@ def classDistribution(path, fiabilidad):
     non_suicide_count = df['class'].value_counts()['non-suicide']
 
     print(suicide_count+non_suicide_count)
+    print(suicide_count)
+    print(non_suicide_count)
 
     # Create a bar chart
     labels = ['Suicide', 'Non-Suicide']
