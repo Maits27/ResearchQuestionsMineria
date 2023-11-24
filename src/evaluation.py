@@ -203,11 +203,11 @@ def classToClassPorEmocion(clasesReales, predicciones, sentimientos, emocion):
         cm = cm[:num_classes, :]
 
     plt.figure(figsize=(10, 6))
-    plt.imshow(cm, cmap=plt.cm.Blues, aspect='auto', interpolation='nearest', vmin=0, vmax=2000)
+    plt.imshow(cm, cmap=plt.cm.Blues, aspect='auto', interpolation='nearest', vmin=0, vmax=50)
 
     # Personalizar el eje x y el eje y para mostrar los grupos y las clases
-    plt.xticks(np.arange(num_classes), [f'Clases reales {nombres_clases[i]}' for i in range(num_classes)])
-    plt.yticks(np.arange(num_classes), [f'Clases predichas {nombres_clases[i]}' for i in range(num_classes)])
+    plt.xticks(np.arange(num_classes), [f'{nombres_clases[i]}' for i in range(num_classes)])
+    plt.yticks(np.arange(num_classes), [f'{nombres_clases[i]}' for i in range(num_classes)])
     thresh = cm.max() / 2.
 
     for i in range(num_classes):

@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     # reduceDataset2(path, nInstances)
     # takeThresDataset(path, fiabilidad)
-    classDistribution(path, nInstances)
+    # classDistribution(path, nInstances)
     # reduceDataset(path, nInstances, nTest)
 
 
@@ -64,8 +64,8 @@ if __name__ == '__main__':
     ###################################################################
 
     path = f'..\Datasets\Suicide_Detection_{nInstances}_Balanceado_SinContarClases.csv'
-    sentimentAnalysis.getSentiment(loadTextRaw(path))
-    sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), 10000)
+    # sentimentAnalysis.getSentiment(loadTextRaw(path))
+    # sentimentAnalysis.getArgmaxSentimentAndClass(loadRAWwithClass(path), 10000)
 
     ####################### YA NO SE SI SIRVEN #######################
     # sentimientos = sentimentAnalysis.getArgmaxSentiment(nInstances)
@@ -77,9 +77,9 @@ if __name__ == '__main__':
     # classToClass(loadRAW(path), sentimientos, nInstances)
 
     # Gráficas de cada sentimiento con su distribución de clases correspondiente:
-    # pathGrafica = f'../out/emociones/emocionesDominantesConClase_{nInstances}.json'
-    # distribution = print_number_distribution(pathGrafica)
-    # plot_with_class_distribution(distribution, nInstances, 'balanced')
+    pathGrafica = f'../out/emociones/emocionesDominantesConClase_{nInstances}.json'
+    distribution = print_number_distribution(pathGrafica)
+    plot_with_class_distribution(distribution, nInstances, 'balanced')
 
     ######################################################################
     ########################### TESTEO ###################################
@@ -93,6 +93,19 @@ if __name__ == '__main__':
 
     predicciones = {}
     resultado = {}
+
+    # path = f'../Datasets/Suicide_Detection_2000_Balanceado.csv'
+    # data = loadRAWwithClass(path)
+    # sentimientos = sentimentAnalysis.getSentimentForTest(loadRAWwithClass(path))
+    # with open(f'../Predicciones/Predicciones2000.json', 'r', encoding='utf-8') as json_file:
+    #     inferencia = json.load(json_file)
+    # predicciones.update(inferencia)
+    # for id, texto in enumerate(sentimientos):
+    #     prediccion = predicciones[str(id)]
+    #     resultado[id] = texto[id]
+    #     resultado[id].update({'prediccion': prediccion})
+    # with open(f'../Predicciones/Predicciones_Test2000.json', 'w', encoding='utf-8') as json_file:
+    #     json.dump(resultado, json_file, indent=2, ensure_ascii=False)
 
     # for i in range(numTests):
     #     path = f'Suicide_Detection_test{i}_400.0.csv'
@@ -114,6 +127,18 @@ if __name__ == '__main__':
     # predicciones = []
     # clasesReales = []
     # sentimientos = []
+    # path = f'../Predicciones/Predicciones_Test2000.json'
+    # with open(path, 'r', encoding='utf-8') as json_file:
+    #     inferencia = json.load(json_file)
+    # for texto in inferencia:
+    #     valores = inferencia[texto]
+    #     predicciones.append(valores['prediccion'])
+    #     clasesReales.append(valores['claseReal'])
+    #     sentimientos.append(valores['emocion'])
+    # for emocion in set(sentimientos):
+    #     classToClassPorEmocion(clasesReales, predicciones, sentimientos, emocion)
+
+
     # for i in range(numTests):
     #     path = f'../Predicciones/Predicciones_Test{i}_{testsSize}.json'
     #     with open(path, 'r', encoding='utf-8') as json_file:

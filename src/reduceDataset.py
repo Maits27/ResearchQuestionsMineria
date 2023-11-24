@@ -216,16 +216,16 @@ def selectDatasetSoloEmociones(path, numInstances):
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
 						  return_all_scores=True)
 
-	if not Path(archivo_salida).is_file():
-		with open(archivo_salida, mode='a', encoding='utf-8') as file:
-			writer = csv.writer(file)
-			writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
+	# if not Path(archivo_salida).is_file():
+	# 	with open(archivo_salida, mode='a', encoding='utf-8') as file:
+	# 		writer = csv.writer(file)
+	# 		writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
 
 	data = loadRAW(path)
 
-	k = 0
-	kontTotal = 0
-	kontEmociones = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
+	k = 40000
+	kontTotal = 9907
+	kontEmociones = {'sadness': 2200, 'joy': 2200, 'love': 769, 'anger': 2200, 'fear': 2200, 'surprise': 338}
 
 	while kontTotal < numInstances:
 		instancia = data.iloc[k]
