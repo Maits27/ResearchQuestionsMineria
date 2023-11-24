@@ -1,0 +1,5 @@
+Number of instance: 232074
+    Max words instance: 9684 (instance 217197)
+    Min words instance: 1
+    Average words: 131.92523505433613
+    Standard deviation: 217.4763180877867
