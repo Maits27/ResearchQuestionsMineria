@@ -1,32 +1,49 @@
+import json
+
+from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import pandas as pd
 import torch
+def chunks(lista, batch_size):
+    for i in range(0, len(lista), batch_size):
+        yield lista [i:i+batch_size]
 
 MODEL_PATH = './models/'
 TOKENIZER = 'cardiffnlp/twitter-xlm-roberta-base'
+DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
+BATCHSIZE = 16
+
 
 tokenizer = AutoTokenizer.from_pretrained(TOKENIZER, use_fast=True, model_max_length=512) # Model max length is not set...
-model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH, local_files_only=True)
-print(model)
+model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH, local_files_only=True).to(DEVICE)
 
-test = pd.read_csv('formated/test.csv')
+test = pd.read_csv('formated/Suicide_Detection_2000_Balanceado.csv')
 
 texts = test['text'].to_list()
-tiny_texts = test['text'][:1000].to_list()
+tiny_texts = test['text'][:2000].to_list()
+print('Antes del tokenizer')
+outputs = []
+for batch in tqdm(chunks(tiny_texts, BATCHSIZE), total=int(len(tiny_texts)/BATCHSIZE)):
+    test_tokens = tokenizer(batch, truncation=True, padding=True, return_tensors='pt', max_length=512, add_special_tokens=True).to(DEVICE)
+    with torch.no_grad():  # Disabling gradient calculation is useful for inference, when you are sure that you will not update weigths
+        outputs.append(model(**test_tokens)[0].detach().cpu())
 
-test_tokens = tokenizer(tiny_texts, truncation=True, padding=True, return_tensors='pt', max_length=512, add_special_tokens=True)
-
-
-with torch.no_grad(): # Disabling gradient calculation is useful for inference, when you are sure that you will not update weigths
-    outputs = model(**test_tokens)[0]
-
+outputs=torch.cat(outputs)
+print('Despues del with')
 correct = 0
+predicciones = {}
 for index, output in enumerate(outputs):
-    if output[0] > output[1]: predicted = 'suicide' 
+    print(f'Dentro del loop {index}')
+    if output[0] > output[1]: predicted = 'suicide'
     else: predicted = 'non-suicide'
 
     print(f'{test["text"][index][:30]}; real: {test["class"][index]}; probabilidad: {predicted}')
 
     if test["class"][index] == predicted: correct += 1
+    predicciones[index] = predicted
+
+
+with open(f'../Predicciones/Predicciones{len(predicciones)}.json', 'w', encoding='utf-8') as json_file:
+    json.dump(predicciones, json_file, indent=2, ensure_ascii=False)
 
 print(correct)
