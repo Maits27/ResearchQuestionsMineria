@@ -1,0 +1,44 @@
+{
+  "sadness": {
+    "nInstancias": 1633,
+    "f1": 0.9550072568940493,
+    "accuracy": 0.9810165339865279,
+    "false_positive_rate": 0.0070202808112324495,
+    "false_negative_rate": 0.06267806267806268
+  },
+  "joy": {
+    "nInstancias": 1609,
+    "f1": 0.9892873777363762,
+    "accuracy": 0.9857054070851461,
+    "false_positive_rate": 0.027829313543599257,
+    "false_negative_rate": 0.007476635514018692
+  },
+  "love": {
+    "nInstancias": 149,
+    "f1": 0.9824561403508772,
+    "accuracy": 0.9731543624161074,
+    "false_positive_rate": 0.08333333333333333,
+    "false_negative_rate": 0.008849557522123894
+  },
+  "anger": {
+    "nInstancias": 1109,
+    "f1": 0.9829351535836177,
+    "accuracy": 0.9774571686203787,
+    "false_positive_rate": 0.037037037037037035,
+    "false_negative_rate": 0.015047879616963064
+  },
+  "fear": {
+    "nInstancias": 416,
+    "f1": 0.9812332439678285,
+    "accuracy": 0.9831730769230769,
+    "false_positive_rate": 0.013100436681222707,
+    "false_negative_rate": 0.0213903743315508
+  },
+  "surprise": {
+    "nInstancias": 84,
+    "f1": 0.9923664122137404,
+    "accuracy": 0.9880952380952381,
+    "false_positive_rate": 0.0,
+    "false_negative_rate": 0.015151515151515152
+  }
+}
