@@ -34,13 +34,13 @@ def truncate_text(text, max_length=512):
 ########################## SOLO SENTIMIENTO PREDOMINANTE #################################
 ##########################################################################################
 """
-def getArgmaxSentimentAndClass(classData, nInstances):
+def getArgmaxSentimentAndClass(classData, nInstances, extrasNombre=''):
     """
     Recoje el sentimiento predominante y la clase de cada texto
     """
     try:
         # Lee el array de JSONs desde el archivo con la codificación UTF-8
-        with open(f'../out/emociones/emocionesEnumeradas_{nInstances}.json', 'r', encoding='utf-8') as json_file:
+        with open(f'../out/emociones/emocionesEnumeradas_{nInstances}_{extrasNombre}.json', 'r', encoding='utf-8') as json_file:
             emociones_array = json.load(json_file)
         emocionesDominantes = []
         kontEmo = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
@@ -54,7 +54,7 @@ def getArgmaxSentimentAndClass(classData, nInstances):
             nuevaEmocionDom['clase'] = classData[i][1]
             emocionesDominantes.append(nuevaEmocionDom)
 
-        with open(f'../out/emociones/emocionesDominantesConClase_{len(emocionesDominantes)}.json', 'w', encoding='utf-8') as json_file:
+        with open(f'../out/emociones/emocionesDominantesConClase_{len(emocionesDominantes)}_{extrasNombre}.json', 'w', encoding='utf-8') as json_file:
             json.dump(emocionesDominantes, json_file, indent=2, ensure_ascii=False)
         print(kontEmo)
         return 0
@@ -92,7 +92,7 @@ def getArgmaxSentiment(nInstances):
 ############################## TODOS LOS SENTIMIENTOS ####################################
 ##########################################################################################
 """
-def getSentiment(rawData):
+def getSentiment(rawData, extrasNombre=''):
     """
     Recoje el porcentajde de cada sentimiento de cada texto
     """
@@ -114,7 +114,7 @@ def getSentiment(rawData):
 
         predictions.append(pjson)
 
-    with open(f'..\out\emociones\emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
+    with open(f'..\out\emociones\emocionesEnumeradas_{len(predictions)}_{extrasNombre}.json', 'w', encoding='utf-8') as json_file:
         json.dump(predictions, json_file, indent=2, ensure_ascii=False)
 
     with open(f'emocionesEnumeradas_{len(predictions)}.json', 'w', encoding='utf-8') as json_file:
@@ -283,3 +283,29 @@ def getSentimentForTest(rawDataClass):
 
     return predictions
 
+"""
+##########################################################################################
+############################## EMBEDDING FINETUNNING ####################################
+##########################################################################################
+"""
+
+def getSentimentForInstance(instance):
+    """
+    Recoje el porcentajde de cada sentimiento de cada texto
+    """
+    classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
+                          return_all_scores=True)
+    predictions = []
+
+    # Truncar el texto si es demasiado largo
+    truncated_instance = truncate_text(instance)
+
+    # Tokenizar el texto
+    prediction = classifier(truncated_instance, )[0]
+    pjson = {}
+    for emotion in prediction:
+        pjson[emotion['label']] = emotion['score']
+    for emotion in ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']:
+        predictions.append(pjson[emotion])
+
+    return predictions

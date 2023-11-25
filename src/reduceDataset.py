@@ -81,6 +81,16 @@ def reduceDataset2(path, numTrainInstances):
 
 	return trainDataset
 
+def reduceDatasetMediumTest(path, numTrainInstances):
+	data = loadRAW(path)
+
+	trainDataset = data.tail(n=100000)
+	testDataset = trainDataset.head(n=numTrainInstances)
+
+	testDataset.to_csv(f'..\Datasets\Suicide_Detection_Test_{numTrainInstances}.csv', index=False)
+
+	return testDataset
+
 def reduceDataset(path, numTrainInstances, numTestInstances):
 	data = loadRAW(path)
 
@@ -152,8 +162,8 @@ def selectDataset(path, numInstances):
 
 			k = 0
 			kontTotal = 0
-			kontSuicide =0
-			kontNonSuicide =0
+			kontSuicide = 0
+			kontNonSuicide = 0
 			kontEmociones = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
 
 			while kontTotal < numInstances:
@@ -276,5 +286,5 @@ def crearMiniTests(path, nTest):
 if __name__ == '__main__':
 	#crearMiniTests('../Datasets/Suicide_Detection_2000_Balanceado.csv', 5)
 	#selectDataset('../Datasets/Suicide_Detection.csv', 10000)
-	#reduceDataset2('../Datasets/Suicide_Detection.csv', 10000)
-	selectDatasetSoloEmociones('../Datasets/Suicide_Detection.csv', 10000)
+	reduceDatasetMediumTest('../Datasets/Suicide_Detection.csv', 100)
+	#selectDatasetSoloEmociones('../Datasets/Suicide_Detection.csv', 10000)

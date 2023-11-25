@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-def plot_with_class_distribution(distribution, nInst, balanced):
+def plot_with_class_distribution(distribution, nInst, balanced=''):
     groups = ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']
     group_count = {
         'suicide': [distribution[group]['suicide'] for group in groups],
@@ -26,7 +26,7 @@ def plot_with_class_distribution(distribution, nInst, balanced):
         bottom += counts
 
 
-    ax.set_title(f"Class distribution on different feeling for {nInst} instances ({balanced})")
+    ax.set_title(f"Class distribution on different feeling for {nInst} instances")
     ax.legend(loc="upper right")
 
     plt.xticks(groups)
