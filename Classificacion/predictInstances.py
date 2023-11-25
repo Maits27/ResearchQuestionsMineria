@@ -8,7 +8,8 @@ def chunks(lista, batch_size):
     for i in range(0, len(lista), batch_size):
         yield lista [i:i+batch_size]
 
-MODEL_PATH = './models/'
+# MODEL_PATH = 'AingeruBeOr/SuicideDetectionOnTweets'
+MODEL_PATH = './results/best_model_loss/'
 TOKENIZER = 'cardiffnlp/twitter-xlm-roberta-base'
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
 BATCHSIZE = 16
@@ -17,10 +18,10 @@ BATCHSIZE = 16
 tokenizer = AutoTokenizer.from_pretrained(TOKENIZER, use_fast=True, model_max_length=512) # Model max length is not set...
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_PATH, local_files_only=True).to(DEVICE)
 
-test = pd.read_csv('formated/Suicide_Detection_2000_Balanceado.csv')
+test = pd.read_csv('formated/Suicide_Detection_Test_5000.csv')
 
 texts = test['text'].to_list()
-tiny_texts = test['text'][:2000].to_list()
+tiny_texts = test['text'][:5000].to_list()
 print('Antes del tokenizer')
 outputs = []
 for batch in tqdm(chunks(tiny_texts, BATCHSIZE), total=int(len(tiny_texts)/BATCHSIZE)):
@@ -29,6 +30,7 @@ for batch in tqdm(chunks(tiny_texts, BATCHSIZE), total=int(len(tiny_texts)/BATCH
         outputs.append(model(**test_tokens)[0].detach().cpu())
 
 outputs=torch.cat(outputs)
+
 print('Despues del with')
 correct = 0
 predicciones = {}
@@ -46,4 +48,5 @@ for index, output in enumerate(outputs):
 with open(f'../Predicciones/Predicciones{len(predicciones)}.json', 'w', encoding='utf-8') as json_file:
     json.dump(predicciones, json_file, indent=2, ensure_ascii=False)
 
+torch.save(outputs, f'../Predicciones/OutputsModelo{len(predicciones)}.pt')
 print(correct)
