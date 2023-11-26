@@ -2,10 +2,8 @@ import csv
 from pathlib import Path
 
 import pandas as pd
-from tqdm import tqdm
 from transformers import pipeline
 from loadSaveData import loadRAW
-import sys
 
 def truncate_text(text, max_length=512):
     """
@@ -17,9 +15,63 @@ def truncate_text(text, max_length=512):
 def isPossibleToSplit(totalInstances, numTrainInstances, numTestInstances):
 	return (numTrainInstances + numTestInstances) <= totalInstances
 
+'''
+##############################################################################		
+############################ REDUCCION TRAIN #################################		
+##############################################################################		
+'''
+
+def reduceDatasetTrain(path, numTrainInstances):
+	data = loadRAW(path)
+
+	trainDataset = data.head(n=numTrainInstances)
+
+	trainDataset.to_csv(f'..\Datasets\Suicide_Detection_{numTrainInstances}.csv', index=False)
+
+	return trainDataset
+
+def reduceDatasetTestTrain(path, numTrainInstances, numTestInstances):
+	data = loadRAW(path)
+
+	if isPossibleToSplit(len(data), numTrainInstances, numTestInstances):
+		trainDataset = data.head(n=numTrainInstances)
+		testDataset = data.tail(n=numTestInstances)
+
+		trainDataset.to_csv(f'..\Datasets\Suicide_Detection_train{numTrainInstances}(test{numTestInstances}).csv', index=False)
+		testDataset.to_csv(f'..\Datasets\Suicide_Detection_test{numTestInstances}(train{numTrainInstances}).csv', index=False)
+
+		return trainDataset, testDataset
+
+'''
+##############################################################################		
+############################ REDUCCION TEST ##################################		
+##############################################################################		
+'''
+def crearMiniTests(path, nTest):
+	df = pd.read_csv(path)
+	tamano_parte = len(df) // nTest
+	partes = [df.iloc[i:i + tamano_parte] for i in range(0, len(df), tamano_parte)]
+	for i, parte in enumerate(partes):
+		parte.to_csv(f'..\Datasets\Suicide_Detection_test{i}_{tamano_parte}.csv', index=False)
 
 
-def selectDataset(path, emotionsToQuit, numInstances):
+def takeTestAfterFirst10000(path, numTrainInstances):
+	data = loadRAW(path)
+
+	trainDataset = data.tail(n=100000)
+	testDataset = trainDataset.head(n=numTrainInstances)
+
+	testDataset.to_csv(f'..\Datasets\Suicide_Detection_Test_{numTrainInstances}.csv', index=False)
+
+	return testDataset
+
+'''
+##############################################################################		
+##################### REDUCCION CONTANDO SENTIMIENTOS ########################		
+##############################################################################		
+'''
+
+def selectDatasetSinXEmociones(path, emotionsToQuit, numInstances):
 	archivo_salida = f'..\Datasets\Suicide_Detection_{numInstances}_Sin_{emotionsToQuit}.csv'
 
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
@@ -72,82 +124,8 @@ def selectDataset(path, emotionsToQuit, numInstances):
 				print(f'Se añade\n')
 
 		k += 1
-def reduceDataset2(path, numTrainInstances):
-	data = loadRAW(path)
 
-	trainDataset = data.head(n=numTrainInstances)
-
-	trainDataset.to_csv(f'..\Datasets\Suicide_Detection_{numTrainInstances}.csv', index=False)
-
-	return trainDataset
-
-def reduceDatasetMediumTest(path, numTrainInstances):
-	data = loadRAW(path)
-
-	trainDataset = data.tail(n=100000)
-	testDataset = trainDataset.head(n=numTrainInstances)
-
-	testDataset.to_csv(f'..\Datasets\Suicide_Detection_Test_{numTrainInstances}.csv', index=False)
-
-	return testDataset
-
-def reduceDataset(path, numTrainInstances, numTestInstances):
-	data = loadRAW(path)
-
-	if isPossibleToSplit(len(data), numTrainInstances, numTestInstances):
-		trainDataset = data.head(n=numTrainInstances)
-		testDataset = data.tail(n=numTestInstances)
-
-		trainDataset.to_csv(f'..\Datasets\Suicide_Detection_train{numTrainInstances}(test{numTestInstances}).csv', index=False)
-		testDataset.to_csv(f'..\Datasets\Suicide_Detection_test{numTestInstances}(train{numTrainInstances}).csv', index=False)
-
-		return trainDataset, testDataset
-
-def takeThresDataset(path, fiabilidad):
-	archivo_salida = f'..\Datasets\Suicide_Detection_thres_{fiabilidad}_parte2.csv'
-
-	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
-						  return_all_scores=True)
-
-	if not Path(archivo_salida).is_file():
-		with open(archivo_salida, mode='w', encoding='utf-8') as file:
-			writer = csv.writer(file)
-			writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
-
-	data = loadRAW(path)
-
-	k = 0
-
-	while k <= 10000:
-		instancia = data.iloc[k]
-
-		id_value = instancia['id']
-		text_value = instancia['text']
-		class_value = instancia['class']
-
-		truncated_instance = truncate_text(text_value)
-		prediction = classifier(truncated_instance, )[0]
-		res = []
-		pjson = {}
-		for emotion in prediction:
-			pjson[emotion['label']] = emotion['score']
-
-		for emocion, valor in pjson.items():
-			if valor > fiabilidad:
-				res.append(emocion)
-		if len(res) > 0:
-			with open(archivo_salida, mode='a', newline='', encoding='utf-8') as file:
-				writer = csv.writer(file)
-				writer.writerow([id_value, text_value, class_value])
-
-			k += 1
-			print(k)
-
-
-
-
-
-def selectDataset(path, numInstances):
+def selectDatasetEmotionBalanced(path, numInstances):
 	archivo_salida = f'..\Datasets\Suicide_Detection_{numInstances}_Balanceado.csv'
 
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
@@ -217,7 +195,6 @@ def selectDataset(path, numInstances):
 				if kontTotal % 100 == 0:
 					print(kontTotal)
 
-	print(f'SE HA FORMADO UN DATASET BALANCEADO DE {kontTotal} INSTANCIAS')
 
 
 def selectDatasetSoloEmociones(path, numInstances):
@@ -226,16 +203,16 @@ def selectDatasetSoloEmociones(path, numInstances):
 	classifier = pipeline("text-classification", model='bhadresh-savani/bert-base-uncased-emotion',
 						  return_all_scores=True)
 
-	# if not Path(archivo_salida).is_file():
-	# 	with open(archivo_salida, mode='a', encoding='utf-8') as file:
-	# 		writer = csv.writer(file)
-	# 		writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
+	if not Path(archivo_salida).is_file():
+		with open(archivo_salida, mode='a', encoding='utf-8') as file:
+			writer = csv.writer(file)
+			writer.writerow(['id', 'text', 'class'])  # Agrega los encabezados según tu estructura
 
 	data = loadRAW(path)
 
-	k = 40000
-	kontTotal = 9907
-	kontEmociones = {'sadness': 2200, 'joy': 2200, 'love': 769, 'anger': 2200, 'fear': 2200, 'surprise': 338}
+	k = 0
+	kontTotal = 0
+	kontEmociones = {'sadness': 0, 'joy': 0, 'love': 0, 'anger': 0, 'fear': 0, 'surprise': 0}
 
 	while kontTotal < numInstances:
 		instancia = data.iloc[k]
@@ -259,32 +236,17 @@ def selectDatasetSoloEmociones(path, numInstances):
 				writer = csv.writer(file)
 				writer.writerow([id_value, text_value, class_value])
 
-
 		k += 1
 		if kontTotal % 100 == 0:
 			print(kontTotal)
 
-	print(f'SE HA FORMADO UN DATASET BALANCEADO POR EMOCION DE {kontTotal} INSTANCIAS')
 
 
-def crearMiniTests(path, nTest):
-
-	# Cargar el archivo CSV
-	df = pd.read_csv(path)
-
-	# Calcular el tamaño de cada parte
-	tamano_parte = len(df) // nTest
-
-	# Dividir el DataFrame en partes iguales
-	partes = [df.iloc[i:i + tamano_parte] for i in range(0, len(df), tamano_parte)]
-
-	# Guardar cada parte en un nuevo archivo CSV
-	for i, parte in enumerate(partes):
-		parte.to_csv(f'..\Datasets\Suicide_Detection_test{i}_{tamano_parte}.csv', index=False)
 
 
 if __name__ == '__main__':
-	#crearMiniTests('../Datasets/Suicide_Detection_2000_Balanceado.csv', 5)
-	#selectDataset('../Datasets/Suicide_Detection.csv', 10000)
-	reduceDatasetMediumTest('../Datasets/Suicide_Detection.csv', 100)
-	#selectDatasetSoloEmociones('../Datasets/Suicide_Detection.csv', 10000)
+	# crearMiniTests('../Datasets/Suicide_Detection_2000_Balanceado.csv', 5)
+	# selectDatasetEmotionBalanced('../Datasets/Suicide_Detection.csv', 10000)
+	# takeTestAfterFirst10000('../Datasets/Suicide_Detection.csv', 100)
+	# selectDatasetSoloEmociones('../Datasets/Suicide_Detection.csv', 10000)
+	pass

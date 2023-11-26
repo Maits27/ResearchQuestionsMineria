@@ -1,9 +1,4 @@
-import numpy as np
 import pandas as pd
-from pathlib import Path
-import csv
-import json
-
 
 def loadRAWwithClass(path):
     """
@@ -11,7 +6,6 @@ def loadRAWwithClass(path):
     """
     data = pd.read_csv(path)
     return [[instancia[1], instancia[2]] for instancia in data.values]
-
 
 def loadRAW(path):
 
@@ -26,129 +20,3 @@ def loadClassTextList(path):
     data = pd.read_csv(path)
     return [[instancia[1], instancia[2]] for instancia in data.values]
 
-
-def saveTokens(textosTokenizados):
-    length = len(textosTokenizados)
-    ruta = Path(f'..\out\\tokens\\tokens{length}.tok')
-    if not ruta.exists():
-        with open(ruta, "w", encoding="utf-8") as file:
-            for texto in textosTokenizados:
-                file.write('####\n')
-                for token in texto:
-                    file.write(token + "\n")
-
-
-def loadTokens(length):
-    path = Path(f'..\out\\tokens\\tokens{length}.tok')
-    if path.exists():
-        textosTokenizados = []
-
-        with open(path, 'r') as file:
-            textoActual = []
-            for line in file:
-                if line == '####\n':
-                    textoActualAux = textoActual.copy()
-                    textosTokenizados.append(textoActualAux)
-                    textoActual.clear()
-                else:
-                    textoActual.append(line.replace('\n',''))
-        return textosTokenizados
-    else:
-        return False
-
-
-def saveSinLimpiarTokens(textosTokenizados):
-    length = len(textosTokenizados)
-    ruta = Path(f'..\\out\\tokens\\tokens_sinlimpiar{length}.tok')
-    if not ruta.exists():
-        with open(ruta, "w", encoding="utf-8") as file:
-            for texto in textosTokenizados:
-                file.write('####\n')
-                for token in texto:
-                    file.write(token + "\n")
-
-
-def loadSinLimpiarTokens(length):
-    print('Cargando sin limpiar tokens')
-    path = Path(f'..\out\\tokens\\tokens_sinlimpiar{length}.tok')
-    if path.exists():
-
-        textosTokenizados = []
-
-        with open(f'..\out\\tokens\\tokens_sinlimpiar{length}.tok', 'r', encoding='utf-8') as file:
-            textoActual = []
-            for line in file:
-                if line == '####\n':
-                    textoActualAux = textoActual.copy()
-                    textosTokenizados.append(textoActualAux)
-                    textoActual.clear()
-                else:
-                    textoActual.append(line.replace('\n',''))
-        return textosTokenizados
-    else:
-        return False
-
-
-def saveEmbeddings(textEmbeddings, dimension, type='no-bert'):
-    print('Guardando embeddings...')
-    length = len(textEmbeddings)
-    if type == 'bert': ruta = Path(f'..\out\embeddings\embeddings{length}dim{dimension}.npy')
-    else: ruta = Path(f'..\out\embeddings\embeddings{length}dim{dimension}.npy')
-    if not ruta.exists(): # Only if file not exists
-        np.save(ruta, textEmbeddings)
-
-
-def loadEmbeddings(length, dimension=768, type='no-bert'):
-    print('Cargando embeddings...')
-    path = Path(f'..\out\embeddings\embeddings{length}dim{768}.npy')
-    if path.exists(): loadedData = np.load(path)
-    else: return False
-    print('Embeddings cargados')
-    return loadedData
-
-
-#
-# def saveInCSV(nInstances, dimension, espilon, minPts, nClusters, silhouette):
-#     with open(f'../out/Barridos/TRANSFORMERSBarridos_D{dimension}_Epsilon{espilon}.csv', 'a') as file:
-#         writer = csv.writer(file, delimiter='|')
-#         writer.writerow([nInstances, dimension, espilon, minPts, nClusters, silhouette])
-#
-#
-# def saveInCSV2(nInstances, dimension, espilon, minPts, media_puntos_cluster, minimo_instancias,nClusters, silhouette):
-#     with open(f'../out/Barridos/TRANSFORMERSBarridos_D{dimension}_Epsilon{espilon}.csv', 'w', encoding='utf8') as file:
-#         file.write('N_Instances\tDim\tEps\tminPts\tmediaPuntosCluster\tminimoInstanciaCluster\tnClusters\tMetric\n')
-#         file.write(f'{nInstances}\t{dimension}\t{espilon}\t{minPts}\t{media_puntos_cluster}\t{minimo_instancias}\t{nClusters}\t{silhouette}')
-#
-#
-# def saveClusters(clusters, name):
-#     np.save(f'../out/cluster_labels/clusters_{name}', clusters)
-#
-#
-# def loadClusters(name):
-#     return np.load(f'../out/cluster_labels/clusters_{name}.npy')
-#
-#
-# def saveDistances(distancesDict, nInstances, dimensiones, typeDistance):
-#     print('Guardando distancias en JSON...')
-#     if typeDistance == 0:
-#         path = Path(f'../out/distances/distances{nInstances}_dim{dimensiones}euclidean.json')
-#     elif typeDistance == 1:
-#         path = Path(f'../out/distances/distances{nInstances}_dim{dimensiones}cosine.json')
-#     if not path.exists():
-#         with open(path, "w", encoding="utf-8") as archivo:
-#             json.dump(distancesDict, archivo, ensure_ascii=False)
-#         print('Distancias guardadas en JSON')
-#
-#
-# def loadDistances(nInstances, dimensions, typeDistance):
-#     print('Cargando distancias')
-#     if typeDistance == 0:
-#         path = Path(f'../out/distances/distances{nInstances}_dim{dimensions}euclidean.json')
-#     elif typeDistance == 1:
-#         path = Path(f'../out/distances/distances{nInstances}_dim{dimensions}cosine.json')
-#     if path.exists():
-#         with open(path, "r") as f:
-#             return json.load(f)
-#     else:
-#         return False
-#

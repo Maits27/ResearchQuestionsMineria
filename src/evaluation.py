@@ -1,11 +1,15 @@
 import json
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.ticker import ScalarFormatter
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 from loadSaveData import loadRAW
-from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, cohen_kappa_score
+from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, cohen_kappa_score, \
+    precision_recall_fscore_support
 import matplotlib.pyplot as plt
 
 """
@@ -120,44 +124,6 @@ def classToClass(dataClass, sentimientos, nInstancias):
     plt.show()
 
 
-
-def multiClassToClass(dataClass, sentimientos, fiabilidad):
-    """
-    data: tiene que ser un dataframe con un campo 'text' y 'class'
-    """
-    num_sen, num_class = todo_a_num(dataClass, sentimientos)
-    cm = confusion_matrix(num_sen, num_class)
-    # Supongamos que tienes 20 grupos y 2 clases
-    nombres_sentimientos = ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']
-    num_groups = len(nombres_sentimientos)
-    num_classes = len(nombres_clases := ['suicide', 'non-suicide'])
-
-
-    if num_classes < num_groups:
-        cm = cm[:, :num_classes]
-    elif num_groups < num_classes:
-        cm = cm[:num_classes, :]
-
-    plt.figure(figsize=(10, 6))
-    plt.imshow(cm, cmap=plt.cm.Blues, aspect='auto', interpolation='nearest', vmin=0, vmax=2000)
-
-    # Personalizar el eje x y el eje y para mostrar los grupos y las clases
-    plt.xticks(np.arange(num_classes), [f'Class {nombres_clases[i]}' for i in range(num_classes)])
-    plt.yticks(np.arange(num_groups), [f' {sentimiento}' for sentimiento in nombres_sentimientos])
-    thresh = cm.max() / 2.
-
-    for i in range(len(nombres_sentimientos)):
-        for j in range(num_classes):
-            plt.text(j, i, format(cm[i][j], 'd'), horizontalalignment="center",
-                     color="white" if cm[i, j] > thresh else "black")
-    # Etiquetas para los ejes
-    plt.xlabel("Class")
-    plt.ylabel("Emotion")
-
-    plt.title(f"Class2Class Matrix Fiabilidad {fiabilidad}")
-    plt.savefig(f'..\img\FeelingMatrix\InitialMultiClassMatrix_ConFiabilidad_{fiabilidad}.png')
-    plt.show()
-
 """
 #########################################################################################################
 ############################ DISTRIBUCION CLASE SUICIDIO NO SUICIDIO ####################################
@@ -175,20 +141,20 @@ def classDistribution(path, nInst, extrasNombre=''):
     print(suicide_count)
     print(non_suicide_count)
 
+    plt.figure(figsize=(12, 6))
+
     # Create a bar chart
     labels = ['Suicide', 'Non-Suicide']
     counts = [suicide_count, non_suicide_count]
+    colors = ['#3589D3', '#3589D3']
 
-    plt.bar(labels, counts)
+    plt.bar(labels, counts, color=colors)
     plt.xlabel('Class')
     plt.ylabel('Number of Instances')
-    plt.title(f"Class distribution Matrix {nInst} instances")
+    for i, count in enumerate(counts):
+        plt.text(i, count + 0.1, str(count), ha='center', va='bottom')
     plt.savefig(f'..\img\ClassDistribution\ClassDistribution_{nInst}_{extrasNombre}.png')
     plt.show()
-
-
-
-
 
 
 
@@ -265,51 +231,41 @@ def graficoDeTodasLasEmocionesCM(clasesReales, predicciones, sentimientos, extra
 ############################################# METRICAS ##################################################
 #########################################################################################################
 """
-# def calcularMetricas(claseReal, clasePredicha):
-#     # Metrics
-#     accuracy = accuracy_score(claseReal, clasePredicha)
-#     confusion = confusion_matrix(claseReal, clasePredicha)
-#     report = classification_report(claseReal, clasePredicha)
-#     kappa = cohen_kappa_score(claseReal, clasePredicha)
-#
-#     print(f'Accuracy: {accuracy}')
-#     print(f'Confusion matrix\n{confusion}')
-#     print(report)
-#     print(f'Kappa: {kappa}')
+def calcular_metricas(clasesReales, predicciones, modelo):
+    archivo_salida = f'../Predicciones/General/MetricasTodosModelos.json'
+    if not Path(archivo_salida).is_file():
+        metricas = {}
+    else:
+        with open(archivo_salida, 'r', encoding='utf-8') as json_file:
+            metricas = json.load(json_file)
+    p = clase_a_num2(predicciones)
+    cr = clase_a_num2(clasesReales)
+    matriz_confusion = confusion_matrix(p, cr)
 
+    true_positive = matriz_confusion[1, 1]
+    true_negative = matriz_confusion[0, 0]
+    false_positive = matriz_confusion[0, 1]
+    false_negative = matriz_confusion[1, 0]
 
-def calcular_metricas(clasesReales, predicciones, sentimientos, extrasNombre=''):
-    metricas = {}
-    for emocion in ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']:
-        matriz_confusion = conseguirMatrizEmocion(clasesReales, predicciones, sentimientos, emocion)
+    precision, recall, fscore, support = precision_recall_fscore_support(cr, p, average='weighted')
 
-        true_positive = matriz_confusion[1, 1]
-        true_negative = matriz_confusion[0, 0]
-        false_positive = matriz_confusion[0, 1]
-        false_negative = matriz_confusion[1, 0]
+    nInst = len(clasesReales)
 
-        nInst=true_positive+true_negative+false_negative+false_positive
+    # Calcular métricas
+    accuracy = (true_positive + true_negative) / np.sum(matriz_confusion)
+    false_positive_rate = false_positive / (false_positive + true_negative)
+    false_negative_rate = false_negative / (false_negative + true_positive)
 
-        # Calcular métricas
-        accuracy = (true_positive + true_negative) / np.sum(matriz_confusion)
-        false_positive_rate = false_positive / (false_positive + true_negative)
-        false_negative_rate = false_negative / (false_negative + true_positive)
+    metricas[modelo] = {'nombre': modelo, 'nInstancias': int(nInst), 'metricas': {'f1': fscore, 'precision': precision, 'recall': recall,
+                        'accuracy': accuracy, 'false_positive_rate': false_positive_rate, 'false_negative_rate': false_negative_rate}}
 
-        precision = true_positive / (true_positive + false_positive)
-        recall = true_positive / (true_positive + false_negative)
-
-        if precision + recall == 0:
-            f1 = 0  # Evitar división por cero
-        else:
-            f1 = 2 * (precision * recall) / (precision + recall)
-
-        metricas[emocion] = {'nInstancias': int(nInst), 'f1': f1, 'accuracy': accuracy, 'false_positive_rate': false_positive_rate,
-                             'false_negative_rate': false_negative_rate}
-
-        with open(f'..\Predicciones\metricas_{extrasNombre}.json', 'w', encoding='utf-8') as json_file:
-            json.dump(metricas, json_file, indent=2, ensure_ascii=False)
+    with open(archivo_salida, 'w', encoding='utf-8') as json_file:
+        json.dump(metricas, json_file, indent=2, ensure_ascii=False)
 
     return metricas
+
+
+
 def graficaMetrics(instanciasPorEmocion, fscore, false_positive_rate, false_negative_rate, extras=''):
     # Datos de ejemplo
     sentimientos = ['sadness', 'joy', 'anger', 'fear', 'love', 'surprise']
@@ -352,6 +308,128 @@ def graficaMetrics(instanciasPorEmocion, fscore, false_positive_rate, false_nega
     plt.title('Diferentes métricas en base a las emociones\n\n\n')
     plt.tight_layout()  # Ajustar diseño para evitar superposición
     plt.savefig(f'..\img\Metricas\Metricas_{sum(instanciasPorEmocion)}_{extras}')
+    plt.show()
+
+
+def graficaDeMetricasPorModelo(path, cuales):
+    with open(path, 'r', encoding='utf-8') as json_file:
+        modelos = json.load(json_file)
+
+    n_metricas = ['f1', 'recall', 'precision', 'false_positive_rate', 'false_negative_rate']
+    nombres = ['Weighted F-Score', 'W-Recall', 'W-Precision', 'FPR', 'FNR']
+    plt.figure(figsize=(15, 5))
+
+    colores = ['red', 'orange', 'green', 'blue', 'purple', 'pink']
+
+    for i, c in enumerate(cuales):
+        metricas = []
+        modelo = modelos[c]
+        # nombres.append(modelo['nombre'])
+        if c.__eq__('Base'): labelNombre = 'CardiffNLP (primeras 10000 instancias)'
+        elif c.__eq__('Emociones'): labelNombre = 'Textos + Valor de las emociones'
+        elif c.__eq__('RandomGuesser'): labelNombre = 'CardiffNLP sin fine-tune'
+        elif c.__eq__('SoloEmociones'): labelNombre = 'Solo valor de las emociones'
+        else: labelNombre = 'CardiffNLP (distribución en base a las emociones predominantes)'
+
+        for n in n_metricas:
+            metricas.append(modelo['metricas'][n])
+        plt.plot(nombres, metricas, label=f'{labelNombre}', marker='o', color=colores[i])
+
+    # Añadir etiquetas y leyenda
+    plt.xlabel('Métricas (siendo suicidio TP)')
+    plt.ylabel('Valor de la métrica')
+    plt.legend()
+    plt.grid(True)
+
+    plt.savefig(f'..\img\Metricas\Metricas_TodosLosModelos')
+    plt.savefig(f'..\Predicciones\Metricas_TodosLosModelos')
+    plt.show()
+
+
+
+"""
+#########################################################################################################
+########################################## LOSS FUNCTION ################################################
+#########################################################################################################
+"""
+
+def documentoLoss(path, extras=''):
+    pathSalida = f'../Predicciones/{extras}/Loss_Modelo_{extras}.json'
+
+    with open(path, 'r', encoding='utf-8') as json_file:
+        train_state = json.load(json_file)
+
+    loss = []
+    log_history = train_state['log_history']
+    for i in range(0, len(log_history), 2):
+        step1 = log_history[i]['step']
+        train_loss = log_history[i]['loss']
+
+        # Verificar que haya una clave siguiente antes de acceder a ella
+        if i + 1 < len(log_history):
+            step2 = log_history[i+1]['step']
+            eval_loss = round(log_history[i+1]['eval_loss'], 4)
+            runtime = log_history[i+1]['eval_runtime']
+
+            if step1 == step2:
+                loss.append({'step': step2, 'train_loss': train_loss, 'eval_loss': eval_loss, 'runtime': runtime})
+
+    with open(pathSalida, 'w', encoding='utf-8') as json_file:
+        json.dump(loss, json_file, indent=2, ensure_ascii=False)
+    return loss
+
+
+def graficaLoss(d1, d2, d3, d4):
+
+    # Extraer los valores de cada lista para la gráfica
+    nombres = ['Base', 'Emociones', 'Solo Emociones', 'Largo']
+    for i, d in enumerate([d1, d2, d3, d4]):
+        if d is not None:
+            steps = [item["step"] for item in d]
+            eval_losses = [item["eval_loss"] for item in d]
+            train_losses = [item["train_loss"] for item in d]
+            plt.plot(steps, eval_losses, label=f'Eval Loss {nombres[i]}', marker='o')
+            plt.plot(steps, train_losses, label=f'Train Loss {nombres[i]}', marker='o')
+    # Agregar etiquetas y leyenda
+    plt.xlabel('Step')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    # Mostrar la gráfica
+    plt.show()
+
+def graficaLossMultiple(d1, d2, d3, d4):
+    nombres = ['Base', 'Emociones', 'Solo Emociones', 'Sin Clase']
+
+    fig, axs = plt.subplots(2,2, figsize=(15, 6))
+
+    kont = 0
+    runs = []
+    for i, d in enumerate([d1, d2, d3, d4]):
+        if d is not None:
+            steps = [item["step"] for item in d]
+            eval_losses = [item["eval_loss"] for item in d]
+            train_losses = [item["train_loss"] for item in d]
+            runtime = [item["runtime"] for item in d]
+            runs.append(runtime)
+            x=0
+            y=0
+            if kont == 1 or kont == 3: x = 1
+            if kont == 2 or kont == 3: y = 1
+
+            axs[x, y].plot(steps, eval_losses, label=f'Eval Loss {nombres[i]}', marker='o', color='#3589D3')
+            axs[x, y].plot(steps, train_losses, label=f'Train Loss {nombres[i]}', marker='o', color='#35DA79')
+            axs[x, y].set_title(f'Loss del modelo {nombres[i]}')
+            axs[x, y].set_xlabel('Step')
+            axs[x, y].set_ylabel('Loss')
+            axs[x, y].legend()
+
+            kont += 1
+
+    #Ajustar el diseño para evitar solapamiento
+    plt.tight_layout()
+
+    plt.savefig(f'..\img\Metricas\LossFunctions')
     plt.show()
 
 

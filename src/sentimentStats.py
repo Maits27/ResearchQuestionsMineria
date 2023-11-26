@@ -18,7 +18,7 @@ def plot_with_class_distribution(distribution, nInst, balanced=''):
 
     colors = ['#3589D3', '#35DA79']  # Define colors for each class
 
-    fig, ax = plt.subplots()
+    fig, ax = plt.subplots(figsize=(12, 5))
     bottom = np.zeros(len(groups))
 
     for clase, counts, color in zip(group_count.keys(), group_count.values(), colors):
@@ -26,8 +26,7 @@ def plot_with_class_distribution(distribution, nInst, balanced=''):
         bottom += counts
 
 
-    ax.set_title(f"Class distribution on different feeling for {nInst} instances")
-    ax.legend(loc="upper right")
+    ax.legend(loc="upper right", fontsize=15)
 
     plt.xticks(groups)
     plt.xlabel('Sentence main feeling')
@@ -50,7 +49,7 @@ def print_number_distribution(path):
 
 
 if __name__ == '__main__':
-    data = loadRAW('../Datasets/Suicide_Detection_2000_Balanceado.csv')
+    # data = loadRAW('../Datasets/Suicide_Detection_2000_Balanceado.csv')
 
     # instances_lengths = []
     # for text in data['text']:
@@ -60,6 +59,7 @@ if __name__ == '__main__':
     # print('Min words instance:', min(instances_lengths))
     # print('Average words:', np.mean(instances_lengths))
     # print('Standard deviation:', np.std(instances_lengths))
-    path = '../out/emo/emocionesDominantesConClase_10000.json'
-    distribution = print_number_distribution(path)
-    plot_with_class_distribution(distribution)
+    # path = '../out/emo/emocionesDominantesConClase_10000.json'
+    # distribution = print_number_distribution(path)
+    # plot_with_class_distribution(distribution)
+    pass
