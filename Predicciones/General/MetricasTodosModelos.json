@@ -1,0 +1,62 @@
+{
+  "Base": {
+    "nombre": "Base",
+    "nInstancias": 5000,
+    "metricas": {
+      "f1": 0.9817999279248605,
+      "precision": 0.9818005627811747,
+      "recall": 0.9818,
+      "accuracy": 0.9818,
+      "false_positive_rate": 0.017727639000805803,
+      "false_negative_rate": 0.018665607625099286
+    }
+  },
+  "Emociones": {
+    "nombre": "Emociones",
+    "nInstancias": 5000,
+    "metricas": {
+      "f1": 0.9021926021236257,
+      "precision": 0.9024538576580485,
+      "recall": 0.9022,
+      "accuracy": 0.9022,
+      "false_positive_rate": 0.10801256873527101,
+      "false_negative_rate": 0.08720456397718011
+    }
+  },
+  "RandomGuesser": {
+    "nombre": "RandomGuesser",
+    "nInstancias": 5000,
+    "metricas": {
+      "f1": 0.3371166344143653,
+      "precision": 0.7500596119223845,
+      "recall": 0.5032,
+      "accuracy": 0.5032,
+      "false_positive_rate": 0.0,
+      "false_negative_rate": 0.4968993798759752
+    }
+  },
+  "SoloEmociones": {
+    "nombre": "SoloEmociones",
+    "nInstancias": 5000,
+    "metricas": {
+      "f1": 0.3949667748362232,
+      "precision": 0.4312445543887572,
+      "recall": 0.4648,
+      "accuracy": 0.4648,
+      "false_positive_rate": 0.6189290161892902,
+      "false_negative_rate": 0.5191803669287587
+    }
+  },
+  "SinClase": {
+    "nombre": "SinClase",
+    "nInstancias": 5000,
+    "metricas": {
+      "f1": 0.9673910906793087,
+      "precision": 0.9681415409140304,
+      "recall": 0.9674,
+      "accuracy": 0.9674,
+      "false_positive_rate": 0.050696594427244585,
+      "false_negative_rate": 0.013245033112582781
+    }
+  }
+}
